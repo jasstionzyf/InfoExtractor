@@ -1,6 +1,6 @@
 package com.yufei.infoExtractor.entity;
 
-import com.yufei.pfw.entity.PaginationRule;
+import com.yufei.dataget.entity.PaginationRule;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 

@@ -3,7 +3,6 @@ package com.yufei.infoExtractor.entity;
 import com.yufei.annotation.ExcelFieldOrder;
 import com.yufei.annotation.ExcelHeaders;
 
-import com.yufei.pfw.entity.Relatedlink;
 /**
  * @author jasstion
  * 上午9:57:35

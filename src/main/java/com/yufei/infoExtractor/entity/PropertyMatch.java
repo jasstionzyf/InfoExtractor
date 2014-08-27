@@ -1,7 +1,6 @@
 package com.yufei.infoExtractor.entity;
 
 import com.yufei.pfw.entity.Entity;
-import com.yufei.pfw.entity.MapAdapter;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;

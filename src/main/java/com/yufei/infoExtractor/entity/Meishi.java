@@ -3,7 +3,6 @@
  */
 package com.yufei.infoExtractor.entity;
 
-import com.yufei.pfw.entity.Relatedlink;
 import java.util.ArrayList;
 import java.util.List;
 
