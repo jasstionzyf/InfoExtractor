@@ -1,6 +1,7 @@
 package com.yufei.infoExtractor.entity;
 
-import com.yufei.entity.Entity;
+import com.yufei.pfw.entity.Entity;
+
 
 /**
  * @author jasstion

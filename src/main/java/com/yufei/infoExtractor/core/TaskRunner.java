@@ -1,5 +1,6 @@
 package com.yufei.infoExtractor.core;
 
+import com.yufei.infoExtractor.entity.Task;
 import it.sauronsoftware.cron4j.Scheduler;
 import it.sauronsoftware.cron4j.TaskExecutor;
 
@@ -17,11 +18,7 @@ import org.apache.commons.logging.LogFactory;
 
 import com.yufei.infoExtractor.listener.AbstractSchedulerListener;
 import com.yufei.infoExtractor.listener.AbstractTaskExecutorListener;
-import com.yufei.infoExtractor.pfw.InfoExtractorDao;
-import com.yufei.infoExtractor.pfw.entity.Task;
 import com.yufei.infoExtractor.task.InfoExtractorCommonTask;
-import com.yufei.infoExtractor.thread.TMallSpProductCollectThread;
-import com.yufei.infoExtractor.util.AppUtil;
 import com.yufei.utils.CommonUtil;
 import com.yufei.utils.ExceptionUtil;
 /**

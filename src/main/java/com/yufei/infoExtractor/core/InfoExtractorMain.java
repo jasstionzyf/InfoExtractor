@@ -1,6 +1,5 @@
 package com.yufei.infoExtractor.core;
 
-import com.yufei.infoExtractor.util.AppUtil;
 
 /**
  * created by @author jasstion at 2012-9-17

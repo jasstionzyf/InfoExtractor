@@ -1,5 +1,7 @@
 package com.yufei.infoExtractor.entity;
 
+import com.yufei.annotation.CollectionElementType;
+import com.yufei.annotation.QueryEnable;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -7,10 +9,9 @@ import java.util.List;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlElementWrapper;
 
-import com.yufei.entity.Entity;
-import com.yufei.infoExtractor.annotation.CollectionElementType;
-import com.yufei.infoExtractor.annotation.QueryEnable;
+
 import com.yufei.infoExtractor.core.InfoActionConfig;
+import com.yufei.pfw.entity.Entity;
 
 
 public class Task extends Entity {

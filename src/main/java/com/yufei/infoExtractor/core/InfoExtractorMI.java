@@ -3,15 +3,15 @@ package com.yufei.infoExtractor.core;
 
 
 
+import com.yufei.dataget.entity.ProxyServer;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 
 import javax.xml.bind.JAXBException;
 
-import com.yufei.entity.Entity;
-import com.yufei.entity.ProxyServer;
 import com.yufei.infoExtractor.entity.Task;
+import com.yufei.pfw.entity.Entity;
 
 /**
  * @author zhaoyufei zhao-0244@qq.com

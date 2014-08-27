@@ -3,13 +3,13 @@
  */
 package com.yufei.infoExtractor.entity;
 
+import com.yufei.pfw.entity.Entity;
 import java.util.List;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlRootElement;
 
-import com.yufei.entity.Entity;
 
 /**
  * @author zhaoyufei zhao-0244@qq.com

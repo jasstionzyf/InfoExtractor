@@ -11,11 +11,10 @@ import java.util.List;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import com.yufei.entity.UrlParameter;
 import com.yufei.infoExtractor.core.impl.InfoExtractorM;
 import com.yufei.infoExtractor.entity.Task;
 import com.yufei.infoExtractor.exception.TaskCreateFailedEx;
-import com.yufei.infoExtractor.util.AppUtil;
+import com.yufei.pfw.entity.UrlParameter;
 import com.yufei.pfw.service.PfwService;
 import com.yufei.utils.CommonUtil;
 

@@ -11,7 +11,6 @@ import java.util.Set;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import com.yufei.entity.PaginationRule;
 import com.yufei.infoExtractor.context.HActionContext;
 import com.yufei.infoExtractor.core.InfoExtractionAction;
 import com.yufei.infoExtractor.entity.Seedsite;
@@ -21,7 +20,6 @@ import com.yufei.infoExtractor.listener.InfoExtractorEvent;
 import com.yufei.infoExtractor.listener.InfoExtractorListener;
 import com.yufei.infoExtractor.parallel.ParallelThreadExecutor;
 import com.yufei.infoExtractor.parallel.executor.UrlExtractorParallelThreadExecutor;
-import com.yufei.infoExtractor.util.AppUtil;
 import com.yufei.utils.CommonUtil;
 
 

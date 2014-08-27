@@ -3,11 +3,11 @@ package com.yufei.infoExtractor.context;
 import java.util.Set;
 
 import com.yufei.component.repetition.IsRepetive;
-import com.yufei.entity.Entity;
 import com.yufei.infoExtractor.entity.Seedsite;
 import com.yufei.infoExtractor.entity.Task;
 import com.yufei.infoExtractor.task.InfoExtractorCommonTask;
 import com.yufei.infoExtractor.util.FactoryUtil;
+import com.yufei.pfw.entity.Entity;
 
 /**
  * @author jasstion

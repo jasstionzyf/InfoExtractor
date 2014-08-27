@@ -4,6 +4,10 @@
  */
 package com.yufei.infoExtractor.entity;
 
+import com.yufei.annotation.CollectionElementType;
+import com.yufei.annotation.ExcelFieldOrder;
+import com.yufei.annotation.ExcelHeaders;
+import com.yufei.annotation.QueryEnable;
 import java.util.ArrayList;
 
 import java.util.List;
@@ -12,11 +16,7 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlRootElement;
 
-import com.yufei.entity.Relatedlink;
-import com.yufei.infoExtractor.annotation.CollectionElementType;
-import com.yufei.infoExtractor.annotation.ExcelFieldOrder;
-import com.yufei.infoExtractor.annotation.ExcelHeaders;
-import com.yufei.infoExtractor.annotation.QueryEnable;
+import com.yufei.pfw.entity.Relatedlink;
 
 /**
  * @author zhaoyufei zhao-0244@qq.com

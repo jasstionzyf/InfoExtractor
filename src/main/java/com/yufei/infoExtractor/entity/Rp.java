@@ -1,11 +1,9 @@
 package com.yufei.infoExtractor.entity;
 
-import java.util.Date;
+import com.yufei.annotation.ExcelFieldOrder;
+import com.yufei.annotation.ExcelHeaders;
 
-import com.yufei.entity.Entity;
-import com.yufei.entity.Relatedlink;
-import com.yufei.infoExtractor.annotation.ExcelFieldOrder;
-import com.yufei.infoExtractor.annotation.ExcelHeaders;
+import com.yufei.pfw.entity.Relatedlink;
 /**
  * @author jasstion
  * 上午9:57:35

@@ -1,6 +1,6 @@
 package com.yufei.infoExtractor.entity;
 
-import com.yufei.entity.Entity;
+import com.yufei.pfw.entity.Entity;
 
 public class Catalog extends Entity{
 	public String getpId() {

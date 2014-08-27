@@ -1,11 +1,12 @@
 package com.yufei.infoExtractor.entity;
 
+import com.yufei.annotation.CollectionElementType;
+import com.yufei.pfw.entity.Entity;
 import java.util.HashSet;
 
 import java.util.Set;
 
-import com.yufei.entity.Entity;
-import com.yufei.infoExtractor.annotation.CollectionElementType;
+
 
 public class TaskFingerprint extends Entity{
 public TaskFingerprint() {

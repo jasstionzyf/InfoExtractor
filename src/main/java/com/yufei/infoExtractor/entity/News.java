@@ -1,5 +1,6 @@
 package com.yufei.infoExtractor.entity;
 
+import com.yufei.pfw.entity.Relatedlink;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,7 +8,6 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlRootElement;
 
-import com.yufei.entity.Relatedlink;
 
 @XmlRootElement
 public class News  extends Relatedlink implements Comparable<News>{

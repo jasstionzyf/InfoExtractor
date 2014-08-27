@@ -1,5 +1,6 @@
 package com.yufei.infoExtractor.core;
 
+import com.yufei.dataget.utils.HtmlUtil;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -10,14 +11,13 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
-import com.yufei.entity.PaginationRule;
-import com.yufei.entity.UrlParameter;
+
 import com.yufei.infoExtractor.entity.ExternalLink;
-import com.yufei.infoExtractor.util.AppUtil;
+import com.yufei.pfw.entity.PaginationRule;
+import com.yufei.pfw.entity.UrlParameter;
 import com.yufei.pfw.service.MongodbPfwService;
 import com.yufei.pfw.service.PfwService;
 import com.yufei.utils.CommonUtil;
-import com.yufei.utils.HtmlUtil;
 
 public class ExternalMongodbLinksGetter implements ExternalLinksGetter {
 	private static final Log mLog = LogFactory.getLog(ExternalMongodbLinksGetter.class);

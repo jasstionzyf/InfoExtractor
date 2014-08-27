@@ -1,12 +1,13 @@
 package com.yufei.infoExtractor.entity;
 
+import com.yufei.dataget.dataretriver.DataRetrieverFeatures;
 import java.util.Date;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
-import com.yufei.dataretriver.DataRetrieverFeatures;
-import com.yufei.entity.Entity;
+
+import com.yufei.pfw.entity.Entity;
 
 @XmlRootElement
 public class Seedsite extends Entity {

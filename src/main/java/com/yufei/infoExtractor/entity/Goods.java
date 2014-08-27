@@ -3,13 +3,14 @@
  */
 package com.yufei.infoExtractor.entity;
 
+import com.yufei.annotation.CollectionElementType;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Date;
 import java.util.List;
 
-import com.yufei.entity.Relatedlink;
-import com.yufei.infoExtractor.annotation.CollectionElementType;
+
+import com.yufei.pfw.entity.Relatedlink;
 
 /**
  * @author zhaoyufei zhao-0244@qq.com

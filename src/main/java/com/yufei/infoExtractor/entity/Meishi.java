@@ -3,10 +3,10 @@
  */
 package com.yufei.infoExtractor.entity;
 
+import com.yufei.pfw.entity.Relatedlink;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.yufei.entity.Relatedlink;
 
 /**
  * @author zhaoyufei zhao-0244@qq.com

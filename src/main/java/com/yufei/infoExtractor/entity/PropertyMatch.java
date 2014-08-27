@@ -1,5 +1,7 @@
 package com.yufei.infoExtractor.entity;
 
+import com.yufei.pfw.entity.Entity;
+import com.yufei.pfw.entity.MapAdapter;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -9,8 +11,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
-import com.yufei.entity.Entity;
-import com.yufei.entity.MapAdapter;
+
 
 
 @XmlRootElement()

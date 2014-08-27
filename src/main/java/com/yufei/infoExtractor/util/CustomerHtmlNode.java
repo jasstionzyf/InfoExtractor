@@ -1,5 +1,6 @@
 package com.yufei.infoExtractor.util;
 
+import com.yufei.dataget.utils.HtmlUtil;
 import java.io.IOException;
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -17,7 +18,6 @@ import org.htmlparser.util.ParserException;
 import com.yufei.infoExtractor.core.SubjectSimilarityWeight;
 import com.yufei.utils.CommonUtil;
 import com.yufei.utils.ExceptionUtil;
-import com.yufei.utils.HtmlUtil;
 
 /**
  * created by @author jasstion at 2012-10-27

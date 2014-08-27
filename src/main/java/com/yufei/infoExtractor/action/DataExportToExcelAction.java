@@ -9,13 +9,12 @@ import java.util.List;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import com.yufei.entity.Entity;
 import com.yufei.infoExtractor.context.HActionContext;
 import com.yufei.infoExtractor.core.InfoExtractionAction;
 import com.yufei.infoExtractor.entity.Hotel;
 import com.yufei.infoExtractor.entity.Task;
 import com.yufei.infoExtractor.exception.TaskResultExportException;
-import com.yufei.infoExtractor.util.AppUtil;
+import com.yufei.pfw.entity.Entity;
 import com.yufei.utils.AnnotationUtil;
 import com.yufei.utils.CommonUtil;
 import com.yufei.utils.DateUtil;
