@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<ehcache> 
+ 
+    <diskStore path="D:\\cache" /> 
+     
+    <defaultCache  
+       maxElementsInMemory="1"   
+        maxElementsOnDisk = "500"  
+        eternal="false"   
+        timeToIdleSeconds="1440"   
+        diskPersistent="false"  
+        timeToLiveSeconds="2880"   
+        overflowToDisk="true"  
+        memoryStoreEvictionPolicy="FIFO"  
+        statistics="true"  
+    /> 
+         
+    <cache name="UrlCache"          
+        maxElementsInMemory="1"   
+        maxElementsOnDisk = "50000"  
+        eternal="false"   
+        timeToIdleSeconds="0"   
+        diskPersistent="false"  
+        timeToLiveSeconds="0"   
+        overflowToDisk="true"  
+        memoryStoreEvictionPolicy="FIFO"  
+        statistics="true"  
+    /> 
+ 
+</ehcache> 

@@ -1,0 +1,803 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+
+<title>手机 【行情 价格 评价 正品行货】</title>
+
+<script type="text/javascript">var jd = {}; jd.plist = {}; jd.iplocation = { "北京": 1,"上海": 2,"天津": 3,"重庆": 4,"河北": 5,"山西": 6,"河南": 7,"辽宁": 8,"吉林": 9,"黑龙江": 10,"内蒙古": 11,"江苏": 12,"山东": 13,"安徽": 14,"浙江": 15,"福建": 16,"湖北": 17,"湖南": 18,"广东": 19,"广西": 20,"江西": 21,"四川": 22,"海南": 23,"贵州": 24,"云南": 25,"西藏": 26,"陕西": 27,"甘肃": 28,"青海": 29,"宁夏": 30,"新疆": 31,"台湾": 32,"香港": 42,"澳门": 43 }; jd.plist.getNameById = function(id) { for (var o in jd.iplocation) { if (jd.iplocation[o] == id) return o } return "北京" }; jd.plist.cookieEditer = { getCookie: function(name) { var start = document.cookie.indexOf(name + "="); var len = start + name.length + 1; if ((!start) && (name != document.cookie.substring(0,name.length))) return null; if (start == -1) return null; var end = document.cookie.indexOf(';',len); if (end == -1) end = document.cookie.length; return unescape(document.cookie.substring(len,end)) },setCookie: function(name,value,expires,path,domain,secure) { var today = new Date(); today.setTime(today.getTime()); if (expires) expires = expires * 1000 * 60 * 60 * 24; var expires_date = new Date(today.getTime() + (expires)); document.cookie = name + '=' + escape(value) + ((expires) ? ';expires=' + expires_date.toGMTString() : '') + ((path) ? ';path=' + path : '') + ((domain) ? ';domain=' + domain : '') + ((secure) ? ';secure' : '') } }; jd.plist.locationProcess = function() { var proid = this.cookieEditer.getCookie("ipLoc-djd"); if (!proid) proid = "1-72"; proid = proid.split("-"); proid = proid[0] + "-" + proid[1]; var url = location.href.toLowerCase(); if (url.indexOf("www.360buy.com/products/") != -1) { var paras = url.split("-"); if (paras.length == 3 && paras[1] == "794") { url = url.replace(".html","-0-0-0-0-0-0-0-1-1-1-" + proid + "-33.html") } else if (paras.length == 13 && paras[1] == "794") { url = url.replace(".html","-" + proid + "-33.html") } else if (paras.length == 16 && paras[1] == "794" && (paras[13] + "-" + paras[14]) != proid) { this.cookieEditer.setCookie("ipLoc-djd",paras[13] + "-" + paras[14],30,"/","360buy.com",false); var proname = jd.plist.getNameById(paras[13]); this.cookieEditer.setCookie("ipLocation",proname,30,"/","360buy.com",false) } if (url != location.href.toLowerCase()) { window.location = url } } }; jd.plist.locationProcess()</script> 
+
+<meta name="keywords" content="手机数码,手机通讯,手机,手机报价、促销、新闻、评论、导购、图片" />
+
+<meta name="description" content="360BUY京东商城是国内最专业的手机数码,手机通讯,手机,手机网上购物商城，本频道提供手机数码,手机通讯,手机,手机的最新报价、促销、评论、导购、图片等相关信息" /> 
+
+<script>var jdpts = new Object(); jdpts._st = new Date().getTime();</script>
+
+<link rel="stylesheet" type="text/css" href="http://misc.360buyimg.com/lib/skin/2012/base.css" media="all" />
+
+<link rel="stylesheet" type="text/css" href="http://misc.360buyimg.com/201007/skin/df/plist20120412.css?t=20120802.css" media="all" />
+
+<link rel="stylesheet" type="text/css" href="http://misc.360buyimg.com/contrast/skin/2012/pop_compare.css?t=20120803" media="all" />
+
+
+
+<script type="text/javascript" src="http://misc.360buyimg.com/lib/js/e/jquery-1.2.6.pack.js"></script>
+
+<script type="text/javascript">window.pageConfig = { compatible: true }; </script>
+
+</head>
+
+<body>
+
+<script type="text/javascript" src="http://misc.360buyimg.com/lib/js/2012/base-2011.js" charset="gb2312"></script>
+
+<div id="shortcut">
+
+	<div class="w">
+
+		<ul class="fl lh">
+
+			<li class="fore1 ld"><b></b><a href="javascript:addToFavorite()">收藏京东<span>商城</span></a></li>
+
+			<li class="fore2"><a href="http://www.360top.com/" target="_blank">360TOP<span>奢侈品</span></a></li>
+
+			<li class="fore3"><a href="http://www.minitiao.com/" target="_blank">迷你挑</a></li>
+
+			<li class="fore4"><a href="http://www.ehaoyao.com/" target="_blank"><span>京东</span>好药师</a></li>
+
+		</ul>
+
+		<ul class="fr lh">
+
+			<li class="fore1 ld" id="loginbar">您好！欢迎来到京东商城！<a href="javascript:login()">[登录]</a>&nbsp;<a href="javascript:regist()">[免费注册]</a></li>
+
+			<li class="fore2"><a href="http://jd2008.360buy.com/JdHome/OrderList.aspx">我的订单</a></li>
+
+			<li class="fore3 menu" data-widget="dropdown">
+
+				<dl>
+
+					<dt class="ld">特色栏目<b></b></dt>
+
+					<dd>
+
+						<div><a href="http://xiaoyuan.360buy.com/" target="_blank">校园频道</a></div>
+
+						<div><a href="http://read.360buy.com/" target="_blank">在线读书</a></div>
+
+						<div><a href="http://diy.360buy.com/" target="_blank">装机大师</a></div>
+
+						<div><a href="http://market.360buy.com/giftcard/" target="_blank">礼品卡</a></div>
+
+					</dd>
+
+				</dl>
+
+			</li>
+
+			<li class="fore4"><a href="http://app.360buy.com/" target="_blank">手机京东</a></li>
+
+			<li class="fore5 menu" data-widget="dropdown">
+
+				<dl>
+
+					<dt class="ld">企业服务<b></b></dt>
+
+					<dd>
+
+						<div><a href="http://market.360buy.com/giftcard/company/default.aspx" target="_blank">企业客户</a></div>
+
+						<div><a href="http://sale.360buy.com/p10997.html" target="_blank">办公直通车</a></div>
+
+					</dd>
+
+				</dl>
+
+			</li>
+
+			<li class="fore6 menu" data-widget="dropdown">
+
+				<dl>
+
+					<dt class="ld"><a href="http://help.360buy.com/" target="_blank">客户服务<b></b></a></dt>
+
+					<dd>
+
+						<div><a href="http://help.360buy.com/help/question-61.html" target="_blank">常见问题</a></div>
+
+						<div><a href="http://myjd.360buy.com/repair/orderlist.action" target="_blank">售后服务</a></div>
+
+						<div><a href="http://chat.360buy.com/jdchat/custom.action" target="_blank">在线客服</a></div>
+
+						<div><a href="http://myjd.360buy.com/opinion/list.action" target="_blank">投诉中心</a></div>
+
+						<div><a href="http://www.360buy.com/contact/service.html" target="_blank">客服邮箱</a></div>
+
+					</dd>
+
+				</dl>
+
+			</li>
+
+		</ul>
+
+		<span class="clr"></span>
+
+	</div>
+
+</div><!--shortcut end--><div id="o-header">
+
+	<div class="w" id="header">
+
+		<div id="logo" class="ld"><a href="http://www.360buy.com/"><b></b><img src="http://misc.360buyimg.com/lib/img/e/logo.png" width="259" height="50" alt="京东商城"></a></div><!--logo end-->
+
+		<div id="search">
+
+			<div class="i-search ld">
+
+				<b></b><s></s>
+
+				<ul id="shelper" class="hide"></ul>
+
+				<div class="form">
+
+				<input type="text" class="text" accesskey="s" id="key" autocomplete="off" onkeydown="javascript:if(event.keyCode==13) search('key');" />
+
+				<input type="button" value="搜索" class="button" onclick="search('key');return false;" />
+
+				</div>
+
+			</div>
+
+			<div id="hotwords"></div>
+
+		</div><!--search end-->
+
+		<div id="my360buy">
+
+			<dl>
+
+				<dt class="ld"><s></s><img src="http://misc.360buyimg.com/lib/img/e/blank.gif" width="24" height="24" alt="头像"><a href="http://home.360buy.com/">我的京东</a><b></b></dt>
+
+				<dd><div class="loading-style1"><b></b>加载中，请稍候...</div></dd>
+
+			</dl>
+
+		</div><!--my360buy end-->
+
+		<div id="settleup">		
+
+			<dl>
+
+				<dt class="ld">
+
+					<s><span id="shopping-amount"></span></s>
+
+					<a href="http://jd2008.360buy.com/purchase/ShoppingCart.aspx">去购物车结算</a>
+
+					<b></b>
+
+				</dt>
+
+				<dd>
+
+				<div class="prompt">				
+
+					<div class="loading-style1"><b></b>加载中，请稍候...</div>
+
+				</div>
+
+				</dd>
+
+			</dl>
+
+		</div><!--settleup end-->
+
+	</div><!--header end-->
+
+	<div class="w">
+
+		<div id="nav">
+
+			<div id="categorys">
+
+				<div class="mt ld">
+
+					<h2><a href="http://www.360buy.com/allSort.aspx">全部商品分类<b></b></a></h2>
+
+				</div>
+
+				<div id="_JD_ALLSORT" class="mc">
+
+					<div class="item fore1"><span><h3><a href="http://book.360buy.com/">图书</a>、<a href="http://e.360buy.com/">电子书刊</a>、<a href="http://mvd.360buy.com/">音像</a></h3><s></s></span></div>
+
+					<div class="item fore2"><span><h3><a href="http://www.360buy.com/electronic.html">家用电器</a></h3><s></s></span></div>
+
+					<div class="item fore3"><span><h3><a href="http://www.360buy.com/digital.html">手机数码</a></h3><s></s></span></div>
+
+					<div class="item fore4"><span><h3><a href="http://www.360buy.com/computer.html">电脑、办公</a></h3><s></s></span></div>
+
+					<div class="item fore5"><span><h3><a href="http://www.360buy.com/home.html">家居家装</a>、<a href="http://www.360buy.com/kitchenware.html">厨具</a></h3><s></s></span></div>
+
+					<div class="item fore6"><span><h3><a href="http://www.360buy.com/clothing.html">服饰鞋帽</a></h3><s></s></span></div>
+
+					<div class="item fore7"><span><h3><a href="http://www.360buy.com/beauty.html">个护化妆</a></h3><s></s></span></div>
+
+					<div class="item fore8"><span><h3><a href="http://www.360buy.com/bag.html">礼品箱包</a>、<a href="http://www.360buy.com/watch.html">钟表</a>、<a href="http://www.360buy.com/jewellery.html">珠宝</a></h3><s></s></span></div>
+
+					<div class="item fore9"><span><h3><a href="http://www.360buy.com/sports.html">运动健康</a></h3><s></s></span></div>
+
+					<div class="item fore10"><span><h3><a href="http://www.360buy.com/auto.html">汽车用品</a></h3><s></s></span></div>
+
+					<div class="item fore11"><span><h3><a href="http://www.360buy.com/baby.html">母婴</a>、<a href="http://www.360buy.com/toys.html">玩具乐器</a></h3><s></s></span></div>
+
+					<div class="item fore12"><span><h3><a href="http://www.360buy.com/food.html">食品饮料、保健食品</a></h3><s></s></span></div>
+
+					<div class="item fore13"><span><h3><a href="http://caipiao.360buy.com/">彩票</a>、<a href="http://trip.360buy.com/">旅行</a>、<a href="http://chongzhi.360buy.com/">充值</a>、<a href="http://www.360buy.com/products/4938-4943-000.html">票务</a></h3><s></s></span></div>
+
+					<div class="extra"><a href="http://www.360buy.com/allSort.aspx">全部商品分类</a></div>
+
+				</div>
+
+			</div>
+
+			<div id="treasure"></div>
+
+			<ul id="navitems">
+
+				<li class="fore1" id="nav-home"><a href="http://www.360buy.com/">首页</a></li>
+
+				<li class="fore2" id="nav-mall"><a href="http://fashion.360buy.com/">服装城</a></li>
+
+				<li class="fore3" id="nav-minitiao"><a href="http://www.minitiao.com/" target="_blank">日韩馆</a></li>
+
+				<li class="fore4" id="nav-tuan"><a href="http://tuan.360buy.com/">团购</a></li>
+
+				<li class="fore5" id="nav-auction"><a href="http://auction.360buy.com/">夺宝岛</a></li>
+
+				<li class="fore6" id="nav-club"><a href="http://club.360buy.com/">京东社区</a></li>
+
+			</ul>
+
+		</div>
+
+	</div>
+
+</div>
+
+<script type="text/javascript">
+
+(function(){if(pageConfig.navId){var object=document.getElementById("nav-"+pageConfig.navId);if(object)object.className+=" curr";}})();
+
+</script><!-- header end -->
+
+
+
+	<div class="w">
+
+	    <div class="breadcrumb">
+
+            <strong><a href = "http://www.360buy.com/digital.html">手机数码</a></strong><span>&nbsp;&gt;&nbsp;<a href="http://www.360buy.com/products/652-653-000.html">手机通讯</a>&nbsp;&gt;&nbsp;<a href="http://www.360buy.com/products/652-653-655.html">手机</a></span>
+
+         </div>
+
+	</div><!--crumb end-->
+
+	<div class="w main">
+
+		<div class="right-extra">			
+
+             <div class="m" id="i-right"><div id="hotsale" clstag="thirdtype|keycount|thirdtype|hotsaleM"><div class="mt"><h2>热卖推荐</h2></div><div class="mc list-h" rfid=326><dl><dt><a target="_blank" href='http://www.360buy.com/product/679533.html'><img src="http://img13.360buyimg.com/n4/g5/M02/14/04/rBEDik_-k50IAAAAAAE256y04pQAAD71wC2wCoAATb_278.jpg" width="100" height="100" alt='阿尔卡特 OT 986+ 3G手机（曜石黑）WCDMA/GSM AK47 加强版' /></a></dt><dd><div class="p-name"><a target="_blank" href='http://www.360buy.com/product/679533.html'>阿尔卡特 OT 986+ 3G手机（曜石黑）WCDMA/GSM AK47 加强版<font color="#ff6600" >直降100元，再送礼包(电池\耳机\贴膜\导航卡\读书卡),双核1.5G CPU、4.5寸IPS视网膜屏！</font></a></div><div class="p-price" >特价：<img src="http://jprice.360buyimg.com/price/gp679533-1-1-1.png" data-img='3'></div><div class="btns"><a target="_blank" href="http://gate.360buy.com/InitCart.aspx?pid=679533&pcount=1&ptype=1">立即抢购</a></div></dd></dl><dl><dt><a target="_blank" href='http://www.360buy.com/product/698864.html'><img src="http://img14.360buyimg.com/n4/g4/M03/06/1D/rBEGFVAkewQIAAAAAAFwl-MiIbcAABWqgJGWxMAAXCv559.jpg" width="100" height="100" alt='华为（HUAWEI）Ascend G330D（U8825D）3G手机（深灰色）WCDMA/GSM 双卡双待' /></a></dt><dd><div class="p-name"><a target="_blank" href='http://www.360buy.com/product/698864.html'>华为（HUAWEI）Ascend G330D（U8825D）3G手机（深灰色）WCDMA/GSM 双卡双待<font color="#ff6600" >七夕好礼！仅此一天！下单送8G卡和价值99元的情侣4G U盘！天生一对！甜美永远！速抢！</font></a></div><div class="p-price" >特价：<img src="http://jprice.360buyimg.com/price/gp698864-1-1-1.png" data-img='3'></div><div class="btns"><a target="_blank" href="http://gate.360buy.com/InitCart.aspx?pid=698864&pcount=1&ptype=1">立即抢购</a></div></dd></dl><dl><dt><a target="_blank" href='http://www.360buy.com/product/569212.html'><img src="http://img12.360buyimg.com/n4/4176/de6440b2-4abe-447c-bf64-f918dbd2f93f.jpg" width="100" height="100" alt='华为 Honor U8860 3G手机' /></a></dt><dd><div class="p-name"><a target="_blank" href='http://www.360buy.com/product/569212.html'>华为 Honor U8860 3G手机<font color="#ff6600" >限时送超值赠品！Android 2.3，1.4GHzCPU，4寸大屏，800万像素！热销机型，好评过万！</font></a></div><div class="p-price" >特价：<img src="http://jprice.360buyimg.com/price/gp569212-1-1-1.png" data-img='3'></div><div class="btns"><a target="_blank" href="http://gate.360buy.com/InitCart.aspx?pid=569212&pcount=1&ptype=1">立即抢购</a></div></dd></dl></div></div><div id="market" clstag="thirdtype|keycount|thirdtype|market"><div class="mt"><h2>促销活动</h2></div><div class="mc"><ul><li>·<a  Target="_blank"  href="http://www.360buy.com/news.aspx?id=8634">上海联通：三星盖世3大降价 </a></li><li>·<a  Target="_blank"  href="http://www.360buy.com/news.aspx?id=8619">2G流量手机卡69元大团购</a></li><li>·<a  Target="_blank"  href="http://www.360buy.com/news.aspx?id=8613">索尼MT25i 晒单返券啦！</a></li><li>·<a  Target="_blank"  href="http://www.360buy.com/news.aspx?id=8596">开学季:神器手机一箩筐</a></li><li>·<a  Target="_blank"  href="http://www.360buy.com/news.aspx?id=8595">北京电信情人节主题特卖会</a></li></ul></div></div></div>
+
+			<!--i-right end-->			
+
+			<div id="select" class="m" clstag="thirdtype|keycount|thirdtype|select">
+
+                <div class="mt"><h1>手机</h1><strong>&nbsp;-&nbsp;商品筛选</strong><div class="extra"><a href="http://www.360buy.com/products/652-653-655.html">重置筛选条件</a></div></div><dl class='fore' ><dt>网络：</dt><dd><div rel='0'><a id="0" href='652-653-655-0-0-0-0-0-0-0-1-1-1.html' class="curr">不限</a></div><div rel='0'><a id="1269" href='652-653-655-1269-0-0-0-0-0-0-1-1-1.html' >联通3G(WCDMA)</a></div><div rel='0'><a id="1285" href='652-653-655-1285-0-0-0-0-0-0-1-1-1.html' >电信3G(CDMA2000)</a></div><div rel='0'><a id="1463" href='652-653-655-1463-0-0-0-0-0-0-1-1-1.html' >移动3G(TD-SCDMA)</a></div><div rel='0'><a id="1449" href='652-653-655-1449-0-0-0-0-0-0-1-1-1.html' >GSM</a></div><div rel='0'><a id="1282" href='652-653-655-1282-0-0-0-0-0-0-1-1-1.html' >CDMA</a></div><div rel='0'><a id="10998" href='652-653-655-10998-0-0-0-0-0-0-1-1-1.html' >双卡</a></div><div rel='0'><a id="1458" href='652-653-655-1458-0-0-0-0-0-0-1-1-1.html' >双模</a></div></dd></dl><dl   id='select-brand'><dt>品牌：</dt><dd><div class='content'><div rel='0'><a id="0" href='652-653-655-0-0-0-0-0-0-0-1-1-1.html' class="curr">不限</a></div><div rel='6'><a id="1270" href='652-653-655-0-1270-0-0-0-0-0-1-1-1.html' >三星</a></div><div rel='4'><a id="1543" href='652-653-655-0-1543-0-0-0-0-0-1-1-1.html' >摩托罗拉</a></div><div rel='5'><a id="13732" href='652-653-655-0-13732-0-0-0-0-0-1-1-1.html' >苹果</a></div><div rel='4'><a id="1271" href='652-653-655-0-1271-0-0-0-0-0-1-1-1.html' >诺基亚</a></div><div rel='4'><a id="13770" href='652-653-655-0-13770-0-0-0-0-0-1-1-1.html' >联想</a></div><div rel='8'><a id="1552" href='652-653-655-0-1552-0-0-0-0-0-1-1-1.html' >夏普</a></div><div rel='6'><a id="1542" href='652-653-655-0-1542-0-0-0-0-0-1-1-1.html' >索尼爱立信</a></div><div rel='0'><a id="68559" href='652-653-655-0-68559-0-0-0-0-0-1-1-1.html' >索尼</a></div><div rel='4'><a id="1547" href='652-653-655-0-1547-0-0-0-0-0-1-1-1.html' >LG</a></div><div rel='3'><a id="52516" href='652-653-655-0-52516-0-0-0-0-0-1-1-1.html' >HTC</a></div><div rel='3'><a id="14401" href='652-653-655-0-14401-0-0-0-0-0-1-1-1.html' >黑莓</a></div><div rel='1'><a id="13733" href='652-653-655-0-13733-0-0-0-0-0-1-1-1.html' >阿尔卡特</a></div><div rel='4'><a id="30238" href='652-653-655-0-30238-0-0-0-0-0-1-1-1.html' >魅族</a></div><div rel='5'><a id="154045" href='652-653-655-0-154045-0-0-0-0-0-1-1-1.html' >OPPO</a></div><div rel='2'><a id="13731" href='652-653-655-0-13731-0-0-0-0-0-1-1-1.html' >飞利浦</a></div><div rel='3'><a id="13776" href='652-653-655-0-13776-0-0-0-0-0-1-1-1.html' >华为</a></div><div rel='8'><a id="13777" href='652-653-655-0-13777-0-0-0-0-0-1-1-1.html' >中兴</a></div><div rel='3'><a id="13781" href='652-653-655-0-13781-0-0-0-0-0-1-1-1.html' >酷派</a></div><div rel='5'><a id="125177" href='652-653-655-0-125177-0-0-0-0-0-1-1-1.html' >青橙</a></div><div rel='3'><a id="13774" href='652-653-655-0-13774-0-0-0-0-0-1-1-1.html' >金立</a></div><div rel='0'><a id="109834" href='652-653-655-0-109834-0-0-0-0-0-1-1-1.html' >koobee</a></div><div rel='6'><a id="13771" href='652-653-655-0-13771-0-0-0-0-0-1-1-1.html' >天语</a></div><div rel='6'><a id="13784" href='652-653-655-0-13784-0-0-0-0-0-1-1-1.html' >TCL</a></div><div rel='3'><a id="13782" href='652-653-655-0-13782-0-0-0-0-0-1-1-1.html' >海信</a></div><div rel='4'><a id="13773" href='652-653-655-0-13773-0-0-0-0-0-1-1-1.html' >纽曼</a></div><div rel='8'><a id="52955" href='652-653-655-0-52955-0-0-0-0-0-1-1-1.html' >长虹</a></div><div rel='6'><a id="61049" href='652-653-655-0-61049-0-0-0-0-0-1-1-1.html' >首信</a></div><div rel='1'><a id="13785" href='652-653-655-0-13785-0-0-0-0-0-1-1-1.html' >创维</a></div><div rel='1'><a id="67362" href='652-653-655-0-67362-0-0-0-0-0-1-1-1.html' >奥克斯</a></div><div rel='8'><a id="68558" href='652-653-655-0-68558-0-0-0-0-0-1-1-1.html' >优思</a></div><div rel='1'><a id="90458" href='652-653-655-0-90458-0-0-0-0-0-1-1-1.html' >朵唯</a></div><div rel='1'><a id="107467" href='652-653-655-0-107467-0-0-0-0-0-1-1-1.html' >波导</a></div><div rel='0'><a id="136399" href='652-653-655-0-136399-0-0-0-0-0-1-1-1.html' >步步高</a></div><div rel='5'><a id="137349" href='652-653-655-0-137349-0-0-0-0-0-1-1-1.html' >七喜</a></div><div rel='6'><a id="147425" href='652-653-655-0-147425-0-0-0-0-0-1-1-1.html' >1039 eTODAY</a></div><div rel='8'><a id="150758" href='652-653-655-0-150758-0-0-0-0-0-1-1-1.html' >语音王</a></div><div rel='1'><a id="151050" href='652-653-655-0-151050-0-0-0-0-0-1-1-1.html' >百分百</a></div><div rel='5'><a id="15023" href='652-653-655-0-15023-0-0-0-0-0-1-1-1.html' >其它</a></div></div></dd></dl><dl  ><dt>价格：</dt><dd><div rel='0'><a id="0" href='652-653-655-0-0-0-0-0-0-0-1-1-1.html' class="curr">不限</a></div><div rel='0'><a id="8864" href='652-653-655-0-0-8864-0-0-0-0-1-1-1.html' >1-499</a></div><div rel='0'><a id="8865" href='652-653-655-0-0-8865-0-0-0-0-1-1-1.html' >500-999</a></div><div rel='0'><a id="8866" href='652-653-655-0-0-8866-0-0-0-0-1-1-1.html' >1000-1999</a></div><div rel='0'><a id="8867" href='652-653-655-0-0-8867-0-0-0-0-1-1-1.html' >2000-2999</a></div><div rel='0'><a id="8875" href='652-653-655-0-0-8875-0-0-0-0-1-1-1.html' >3000-3999</a></div><div rel='0'><a id="100295" href='652-653-655-0-0-100295-0-0-0-0-1-1-1.html' >4000-4999</a></div><div rel='0'><a id="10999" href='652-653-655-0-0-10999-0-0-0-0-1-1-1.html' >5000以上</a></div></dd></dl><dl  ><dt>外观：</dt><dd><div rel='0'><a id="0" href='652-653-655-0-0-0-0-0-0-0-1-1-1.html' class="curr">不限</a></div><div rel='0'><a id="8868" href='652-653-655-0-0-0-8868-0-0-0-1-1-1.html' >直板</a></div><div rel='0'><a id="8869" href='652-653-655-0-0-0-8869-0-0-0-1-1-1.html' >滑盖</a></div><div rel='0'><a id="8870" href='652-653-655-0-0-0-8870-0-0-0-1-1-1.html' >翻盖</a></div><div rel='0'><a id="57044" href='652-653-655-0-0-0-57044-0-0-0-1-1-1.html' >旋盖</a></div></dd></dl><dl  ><dt>操控：</dt><dd><div rel='0'><a id="0" href='652-653-655-0-0-0-0-0-0-0-1-1-1.html' class="curr">不限</a></div><div rel='0'><a id="8871" href='652-653-655-0-0-0-0-8871-0-0-1-1-1.html' >标准键盘</a></div><div rel='0'><a id="8872" href='652-653-655-0-0-0-0-8872-0-0-1-1-1.html' >全键盘</a></div><div rel='0'><a id="8874" href='652-653-655-0-0-0-0-8874-0-0-1-1-1.html' >电阻屏触屏</a></div><div rel='0'><a id="68299" href='652-653-655-0-0-0-0-68299-0-0-1-1-1.html' >电容屏触屏</a></div></dd></dl><dl  ><dt>系统：</dt><dd><div rel='0'><a id="0" href='652-653-655-0-0-0-0-0-0-0-1-1-1.html' class="curr">不限</a></div><div rel='0'><a id="13756" href='652-653-655-0-0-0-0-0-13756-0-1-1-1.html' >Android</a></div><div rel='0'><a id="114599" href='652-653-655-0-0-0-0-0-114599-0-1-1-1.html' >WindowsPhone</a></div><div rel='0'><a id="13757" href='652-653-655-0-0-0-0-0-13757-0-1-1-1.html' >IOS</a></div><div rel='0'><a id="13758" href='652-653-655-0-0-0-0-0-13758-0-1-1-1.html' >WindowsMobile</a></div><div rel='0'><a id="13755" href='652-653-655-0-0-0-0-0-13755-0-1-1-1.html' >Symbian(S60及以上)</a></div><div rel='0'><a id="13759" href='652-653-655-0-0-0-0-0-13759-0-1-1-1.html' >其它智能系统</a></div><div rel='0'><a id="57045" href='652-653-655-0-0-0-0-0-57045-0-1-1-1.html' >非智能手机</a></div></dd></dl><dl  ><dt>特点：</dt><dd><div rel='0'><a id="0" href='652-653-655-0-0-0-0-0-0-0-1-1-1.html' class="curr">不限</a></div><div rel='0'><a id="59753" href='652-653-655-0-0-0-0-0-0-59753-1-1-1.html' >购机送话费</a></div><div rel='0'><a id="59754" href='652-653-655-0-0-0-0-0-0-59754-1-1-1.html' >“0”元购机</a></div><div rel='0'><a id="13760" href='652-653-655-0-0-0-0-0-0-13760-1-1-1.html' >wifi/wapi</a></div><div rel='0'><a id="57046" href='652-653-655-0-0-0-0-0-0-57046-1-1-1.html' >4寸及以上屏幕</a></div><div rel='0'><a id="57047" href='652-653-655-0-0-0-0-0-0-57047-1-1-1.html' >手写输入</a></div><div rel='0'><a id="13763" href='652-653-655-0-0-0-0-0-0-13763-1-1-1.html' >3G视频通话</a></div><div rel='0'><a id="13764" href='652-653-655-0-0-0-0-0-0-13764-1-1-1.html' >导航模块</a></div><div rel='0'><a id="13765" href='652-653-655-0-0-0-0-0-0-13765-1-1-1.html' >高像素手机</a></div><div rel='0'><a id="127652" href='652-653-655-0-0-0-0-0-0-127652-1-1-1.html' >手机电视</a></div><div rel='0'><a id="13761" href='652-653-655-0-0-0-0-0-0-13761-1-1-1.html' >音乐手机</a></div><div rel='0'><a id="57048" href='652-653-655-0-0-0-0-0-0-57048-1-1-1.html' >商务手机</a></div><div rel='0'><a id="57049" href='652-653-655-0-0-0-0-0-0-57049-1-1-1.html' >女性手机</a></div><div rel='0'><a id="57050" href='652-653-655-0-0-0-0-0-0-57050-1-1-1.html' >老人手机</a></div></dd></dl>
+
+			</div><!--select end -->
+
+			<script type="text/javascript">(function() { var b = $("#select-brand .tab"), f = $("#select-brand .content"), h = $("#select-hold"), c = b.find(".curr").attr("rel"), g = (screen.width >= 1200) ? "225px" : "275px", a; var d = 0, i = 0, e = (screen.width >= 1200) ? 6 : 5; i = Math.ceil(f.children().size() / e); d = (f.children().outerHeight()) * i; if (d > parseInt(g)) { f.css("height", g); h.html("<b></b>展开").attr("class", "close") } else { h.html("<b></b>收起").attr("class", "open") } h.bind("click", function() { if ($(this).attr("class") != "open") { f.css("height", "auto"); h.html("<b></b>收起").attr("class", "open") } else { f.css("height", g); h.html("<b></b>展开").attr("class", "close") } }); b.find("li").bind("mouseover", function() { var j = $(this); a = setTimeout(function() { if (j.attr("rel") == c) { return } b.find("li").eq(c).removeClass("curr"); j.addClass("curr"); c = j.attr("rel"); f.css("height", "auto"); h.hide(); f.find("div").each(function() { if (c == 0) { $(this).show() } else { $(this).hide(); if ($(this).attr("rel") == c) { $(this).show() } } }) }, 500) }).bind("mouseout", function() { clearTimeout(a) }) })();</script>
+
+            <div id="advanced"><div><a href="http://www.360buy.com/plistSearch.aspx?sort0=652&sort1=653&sort2=655">高级搜索</a><b></b></div></div>            
+
+			<div id="filter"  clstag="thirdtype|keycount|thirdtype|filter">
+
+                <div class='fore1'><dl class='order'><dt>排序：</dt><dd class='curr'><a href='652-653-655-0-0-0-0-0-0-0-1-1-1.html'>销量</a><b></b></dd><dd  ><b></b><a href='652-653-655-0-0-0-0-0-0-0-1-3-1.html' rel='nofollow'>价格</a><b></b></dd><dd ><a href="652-653-655-0-0-0-0-0-0-0-1-4-1.html" rel='nofollow'>评论数</a><b></b></dd><dd ><a href="652-653-655-0-0-0-0-0-0-0-1-5-1.html" rel='nofollow'>上架时间</a><b></b></dd></dl><div class='pagin pagin-m'><span class='text'>1/27</span><span class="prev-disabled">上一页<b></b></span><a href="652-653-655-0-0-0-0-0-0-0-1-1-2.html" class="next" >下一页<b></b></a></div><div class='total'><span>共<strong>959</strong>个商品</span></div><span class='clr'></span></div><div class='fore2 form'><dl class='store'><dt>库存：</dt><dd id='store-selector' class=''><div class='text'>请选择省份<b></b></div><div class='content'><a href='652-653-655-0-0-0-0-0-0-0-1-1-1-0-0.html'>全国</a><dl><dt>请选择省份</dt><dd><a p='1' href='652-653-655-0-0-0-0-0-0-0-1-1-1-1-0.html'>北京</a>、<a p='3' href='652-653-655-0-0-0-0-0-0-0-1-1-1-3-0.html'>天津</a>、<a p='5' href='652-653-655-0-0-0-0-0-0-0-1-1-1-5-0.html'>河北</a>、<a p='13' href='652-653-655-0-0-0-0-0-0-0-1-1-1-13-0.html'>山东</a>、<a p='6' href='652-653-655-0-0-0-0-0-0-0-1-1-1-6-0.html'>山西</a>、<a p='7' href='652-653-655-0-0-0-0-0-0-0-1-1-1-7-0.html'>河南</a>、<a p='17' href='652-653-655-0-0-0-0-0-0-0-1-1-1-17-0.html'>湖北</a>、<a p='8' href='652-653-655-0-0-0-0-0-0-0-1-1-1-8-0.html'>辽宁</a>、<a p='9' href='652-653-655-0-0-0-0-0-0-0-1-1-1-9-0.html'>吉林</a>、<a p='10' href='652-653-655-0-0-0-0-0-0-0-1-1-1-10-0.html'>黑龙江</a>、<a p='11' href='652-653-655-0-0-0-0-0-0-0-1-1-1-11-0.html'>内蒙古</a></dd><dt>请选择省份</dt><dd><a p='2' href='652-653-655-0-0-0-0-0-0-0-1-1-1-2-0.html'>上海</a>、<a p='12' href='652-653-655-0-0-0-0-0-0-0-1-1-1-12-0.html'>江苏</a>、<a p='15' href='652-653-655-0-0-0-0-0-0-0-1-1-1-15-0.html'>浙江</a>、<a p='14' href='652-653-655-0-0-0-0-0-0-0-1-1-1-14-0.html'>安徽</a></dd><dt>请选择省份</dt><dd><a p='19' href='652-653-655-0-0-0-0-0-0-0-1-1-1-19-0.html'>广东</a>、<a p='20' href='652-653-655-0-0-0-0-0-0-0-1-1-1-20-0.html'>广西</a>、<a p='16' href='652-653-655-0-0-0-0-0-0-0-1-1-1-16-0.html'>福建</a>、<a p='18' href='652-653-655-0-0-0-0-0-0-0-1-1-1-18-0.html'>湖南</a>、<a p='21' href='652-653-655-0-0-0-0-0-0-0-1-1-1-21-0.html'>江西</a>、<a p='23' href='652-653-655-0-0-0-0-0-0-0-1-1-1-23-0.html'>海南</a>、<a p='32' href='652-653-655-0-0-0-0-0-0-0-1-1-1-32-0.html'>台湾</a>、<a p='42' href='652-653-655-0-0-0-0-0-0-0-1-1-1-42-0.html'>香港</a>、<a p='43' href='652-653-655-0-0-0-0-0-0-0-1-1-1-43-0.html'>澳门</a></dd><dt>请选择省份</dt><dd><a p='22' href='652-653-655-0-0-0-0-0-0-0-1-1-1-22-0.html'>四川</a>、<a p='4' href='652-653-655-0-0-0-0-0-0-0-1-1-1-4-0.html'>重庆</a>、<a p='27' href='652-653-655-0-0-0-0-0-0-0-1-1-1-27-0.html'>陕西</a>、<a p='24' href='652-653-655-0-0-0-0-0-0-0-1-1-1-24-0.html'>贵州</a>、<a p='25' href='652-653-655-0-0-0-0-0-0-0-1-1-1-25-0.html'>云南</a>、<a p='26' href='652-653-655-0-0-0-0-0-0-0-1-1-1-26-0.html'>西藏</a>、<a p='28' href='652-653-655-0-0-0-0-0-0-0-1-1-1-28-0.html'>甘肃</a>、<a p='29' href='652-653-655-0-0-0-0-0-0-0-1-1-1-29-0.html'>青海</a>、<a p='30' href='652-653-655-0-0-0-0-0-0-0-1-1-1-30-0.html'>宁夏</a>、<a p='31' href='652-653-655-0-0-0-0-0-0-0-1-1-1-31-0.html'>新疆</a></dd></dl></div><div class='close' onclick="$('#store-selector').removeClass('hover')"></div></dd><dd class='instock'><div class=' disabled'><b></b>仅显示有货</div></dd></dl><dl class='type'><dt>商品类型：</dt><dd class='selected'><a href='652-653-655-0-0-0-0-0-0-0-1-1-1.html'><b></b>全部</a></dd><dd ><a href='652-653-655-0-0-0-0-0-0-0-4-1-1.html'><b></b>京东配送</a></dd><dd ><a href='652-653-655-0-0-0-0-0-0-0-3-1-1.html'><b></b>第三方配送</a></dd></dl><span class='clr'></span></div>
+
+			</div><!--filter end-->	
+
+			<script type="text/javascript">var stockiplocation = { "北京": { id: "1", root: 0, djd: 1, c: 72 }, "上海": { id: "2", root: 1, djd: 1, c: 78 }, "天津": { id: "3", root: 0, djd: 1, c: 83 }, "重庆": { id: "4", root: 3, djd: 1, c: 87 }, "河北": { id: "5", root: 0, djd: 1, c: 142 }, "山西": { id: "6", root: 0, djd: 1, c: 303 }, "河南": { id: "7", root: 0, djd: 1, c: 412 }, "辽宁": { id: "8", root: 0, djd: 1, c: 560 }, "吉林": { id: "9", root: 0, djd: 1, c: 639 }, "黑龙江": { id: "10", root: 0, djd: 1, c: 698 }, "内蒙古": { id: "11", root: 0, djd: 0, c: 799 }, "江苏": { id: "12", root: 1, djd: 1, c: 904 }, "山东": { id: "13", root: 0, djd: 1, c: 1000 }, "安徽": { id: "14", root: 1, djd: 1, c: 1116 }, "浙江": { id: "15", root: 1, djd: 1, c: 1158 }, "福建": { id: "16", root: 2, djd: 1, c: 1303 }, "湖北": { id: "17", root: 0, djd: 1, c: 1381 }, "湖南": { id: "18", root: 2, djd: 1, c: 1482 }, "广东": { id: "19", root: 2, djd: 1, c: 1601 }, "广西": { id: "20", root: 2, djd: 1, c: 1715 }, "江西": { id: "21", root: 2, djd: 1, c: 1827 }, "四川": { id: "22", root: 3, djd: 1, c: 1930 }, "海南": { id: "23", root: 2, djd: 1, c: 2121 }, "贵州": { id: "24", root: 3, djd: 1, c: 2144 }, "云南": { id: "25", root: 3, djd: 1, c: 2235 }, "西藏": { id: "26", root: 3, djd: 0, c: 2951 }, "陕西": { id: "27", root: 3, djd: 1, c: 2376 }, "甘肃": { id: "28", root: 3, djd: 1, c: 2487 }, "青海": { id: "29", root: 3, djd: 0, c: 2580 }, "宁夏": { id: "30", root: 3, djd: 1, c: 2628 }, "新疆": { id: "31", root: 3, djd: 0, c: 2652 }, "台湾": { id: "32", root: 2, djd: 0, c: 2768 }, "香港": { id: "42", root: 2, djd: 0, c: 2754 }, "澳门": { id: "43", root: 2, djd: 0, c: 2770} }; var stockgetNameById = function(id) { for (var o in stockiplocation) { if (stockiplocation[o].id == id) return o; } return "北京"; }; function setDjdCookie(p, c) { var a = jd.plist.cookieEditer.getCookie("ipLoc-djd"); if (!a || a.split("-")[0] != p) jd.plist.cookieEditer.setCookie("ipLoc-djd", p + (c ? ("-" + c) : ""), 30, "/", "360buy.com", false); } $("#store-selector .content").find("a").click(function() { var proid = $(this).attr("p"); if (!proid) proid = 1; var proname = stockgetNameById(proid); jd.plist.cookieEditer.setCookie("ipLocation", proname, 30, "/", "360buy.com", false); setDjdCookie(proid, stockiplocation[proname].c); }).end().hoverForIE6(); </script>		
+
+			<div class="m " id="plist" clstag="thirdtype|keycount|thirdtype|plist">
+
+				<ul class="list-h">
+
+                    <!-- <cc>959</cc> -->
+<li sku='570127' onclick='log(7,3,570127)'><div class='p-img'><a target='_blank' href='http://www.360buy.com/product/570127.html'><img onerror="this.src='http://www.360buy.com/images/none/none_150.gif'" src='http://img12.360buyimg.com/n2/3529/e7022b13-e237-4f5b-97a3-c846a5cde518.jpg' width="160" height="160" alt='苹果（APPLE）iPhone 4S 16G版 3G手机（黑色）WCDMA/GSM' /></a><div class='pi2'></div></div><div class='p-name'><a target='_blank' href='http://www.360buy.com/product/570127.html'>苹果（APPLE）iPhone 4S 16G版 3G手机（黑色）WCDMA/GSM<font style='color:#ff0000' class='adwords' name='570127'></font></a></div><div  class='p-price'><img onerror="this.src='http://www.360buy.com/images/no2.gif'" src="http://price.360buyimg.com/gp570127,1.png" /></div><div class='extra'><span class='evaluate'><a target='_blank' href='http://club.360buy.com/review/570127-1-1.html'>已有4045人评价</a></span><span class='reputation'>(97%好评)</span><span id='p570127'></span></div><div class='btns'><a onclick='log(1,7,570127)' href='http://gate.360buy.com/InitCart.aspx?pid=570127&pcount=1&ptype=1' target='_blank' class='btn-buy'>购买</a><input id="coll570127" type='button' class='btn-coll' value='关注' onclick='feed_publish_collect(2,570127);' /><a class='btn-compare btn-compare-s' id='comp_570127' skuid='570127'><span>对比</span></a></div></li>
+<li sku='570129' onclick='log(7,3,570129)'><div class='p-img'><a target='_blank' href='http://www.360buy.com/product/570129.html'><img onerror="this.src='http://www.360buy.com/images/none/none_150.gif'" src='http://img14.360buyimg.com/n2/858/3ebc8f60-b924-4d1b-af32-b4ac2f8408cf.jpg' width="160" height="160" alt='苹果（APPLE）iPhone 4S 16G版 3G手机（白色）WCDMA/GSM' /></a><div class='pi2'></div></div><div class='p-name'><a target='_blank' href='http://www.360buy.com/product/570129.html'>苹果（APPLE）iPhone 4S 16G版 3G手机（白色）WCDMA/GSM<font style='color:#ff0000' class='adwords' name='570129'></font></a></div><div  class='p-price'><img onerror="this.src='http://www.360buy.com/images/no2.gif'" src="http://price.360buyimg.com/gp570129,1.png" /></div><div class='extra'><span class='evaluate'><a target='_blank' href='http://club.360buy.com/review/570129-1-1.html'>已有3675人评价</a></span><span class='reputation'>(97%好评)</span><span id='p570129'></span></div><div class='btns'><a onclick='log(1,7,570129)' href='http://gate.360buy.com/InitCart.aspx?pid=570129&pcount=1&ptype=1' target='_blank' class='btn-buy'>购买</a><input id="coll570129" type='button' class='btn-coll' value='关注' onclick='feed_publish_collect(2,570129);' /><a class='btn-compare btn-compare-s' id='comp_570129' skuid='570129'><span>对比</span></a></div></li>
+<li sku='684624' onclick='log(7,3,684624)'><div class='p-img'><a target='_blank' href='http://www.360buy.com/product/684624.html'><img onerror="this.src='http://www.360buy.com/images/none/none_150.gif'" src='http://img14.360buyimg.com/n2/g5/M02/12/02/rBEIC0_ta3cIAAAAAAEYvmi2MDsAADiIgBx0TgAARjW895.jpg' width="160" height="160" alt='魅族（MEIZU）MX 新双核 16G 3G手机（黑色）WCDMA/GSM   ' /></a></div><div class='p-name'><a target='_blank' href='http://www.360buy.com/product/684624.html'>魅族（MEIZU）MX 新双核 16G 3G手机（黑色）WCDMA/GSM   <font style='color:#ff0000' class='adwords' name='684624'></font></a></div><div  class='p-price'><img onerror="this.src='http://www.360buy.com/images/no2.gif'" src="http://price.360buyimg.com/gp684624,1.png" /></div><div class='extra'><span class='evaluate'><a target='_blank' href='http://club.360buy.com/review/684624-1-1.html'>已有133人评价</a></span><span class='reputation'>(95%好评)</span><span id='p684624'></span></div><div class='btns'><a onclick='log(1,7,684624)' href='http://gate.360buy.com/InitCart.aspx?pid=684624&pcount=1&ptype=1' target='_blank' class='btn-buy'>购买</a><input id="coll684624" type='button' class='btn-coll' value='关注' onclick='feed_publish_collect(2,684624);' /><a class='btn-compare btn-compare-s' id='comp_684624' skuid='684624'><span>对比</span></a></div></li>
+<li sku='576911' onclick='log(7,3,576911)'><div class='p-img'><a target='_blank' href='http://www.360buy.com/product/576911.html'><img onerror="this.src='http://www.360buy.com/images/none/none_150.gif'" src='http://img11.360buyimg.com/n2/g1/M04/04/13/rBEGDk-qT0oIAAAAAAGaCz96vdEAAA5ywLUFBQAAZoj706.jpg' width="160" height="160" alt='三星（SAMSUNG）S5830I 3G手机（玛瑙黑）WCDMA/GSM' /></a></div><div class='p-name'><a target='_blank' href='http://www.360buy.com/product/576911.html'>三星（SAMSUNG）S5830I 3G手机（玛瑙黑）WCDMA/GSM<font style='color:#ff0000' class='adwords' name='576911'></font></a></div><div  class='p-price'><img onerror="this.src='http://www.360buy.com/images/no2.gif'" src="http://price.360buyimg.com/gp576911,1.png" /></div><div class='extra'><span class='evaluate'><a target='_blank' href='http://club.360buy.com/review/576911-1-1.html'>已有12315人评价</a></span><span class='reputation'>(95%好评)</span><span id='p576911'></span></div><div class='btns'><a onclick='log(1,7,576911)' href='http://gate.360buy.com/InitCart.aspx?pid=576911&pcount=1&ptype=1' target='_blank' class='btn-buy'>购买</a><input id="coll576911" type='button' class='btn-coll' value='关注' onclick='feed_publish_collect(2,576911);' /><a class='btn-compare btn-compare-s' id='comp_576911' skuid='576911'><span>对比</span></a></div></li>
+<li sku='539349' onclick='log(7,3,539349)'><div class='p-img'><a target='_blank' href='http://www.360buy.com/product/539349.html'><img onerror="this.src='http://www.360buy.com/images/none/none_150.gif'" src='http://img14.360buyimg.com/n2/2748/559acf9e-11f0-43e2-9105-7310f35503de.jpg' width="160" height="160" alt='苹果（APPLE）iPhone 4 8G版 3G手机（白色）WCDMA/GSM' /></a><div class='pi8'></div></div><div class='p-name'><a target='_blank' href='http://www.360buy.com/product/539349.html'>苹果（APPLE）iPhone 4 8G版 3G手机（白色）WCDMA/GSM<font style='color:#ff0000' class='adwords' name='539349'></font></a></div><div  class='p-price'><img onerror="this.src='http://www.360buy.com/images/no2.gif'" src="http://price.360buyimg.com/gp539349,1.png" /></div><div class='extra'><span class='evaluate'><a target='_blank' href='http://club.360buy.com/review/539349-1-1.html'>已有5084人评价</a></span><span class='reputation'>(96%好评)</span><span id='p539349'></span></div><div class='btns'><a onclick='log(1,7,539349)' href='http://gate.360buy.com/InitCart.aspx?pid=539349&pcount=1&ptype=1' target='_blank' class='btn-buy'>购买</a><input id="coll539349" type='button' class='btn-coll' value='关注' onclick='feed_publish_collect(2,539349);' /><a class='btn-compare btn-compare-s' id='comp_539349' skuid='539349'><span>对比</span></a></div></li>
+<li sku='685784' onclick='log(7,3,685784)'><div class='p-img'><a target='_blank' href='http://www.360buy.com/product/685784.html'><img onerror="this.src='http://www.360buy.com/images/none/none_150.gif'" src='http://img14.360buyimg.com/n2/g5/M02/16/0B/rBEIC1AJI3QIAAAAAAEzVcWmjvkAAEXUwJDHtUAATNt357.jpg' width="160" height="160" alt='联想（Lenovo）A789 3G手机（深邃黑）WCDMA/GSM 双卡双待 联通定制' /></a><div class='pi2'></div></div><div class='p-name'><a target='_blank' href='http://www.360buy.com/product/685784.html'>联想（Lenovo）A789 3G手机（深邃黑）WCDMA/GSM 双卡双待 联通定制<font style='color:#ff0000' class='adwords' name='685784'></font></a></div><div  class='p-price'><img onerror="this.src='http://www.360buy.com/images/no2.gif'" src="http://price.360buyimg.com/gp685784,1.png" /></div><div class='extra'><span class='evaluate'><a target='_blank' href='http://club.360buy.com/review/685784-1-1.html'>已有1041人评价</a></span><span class='reputation'>(89%好评)</span><span id='p685784'></span></div><div class='btns'><a onclick='log(1,7,685784)' href='http://gate.360buy.com/InitCart.aspx?pid=685784&pcount=1&ptype=1' target='_blank' class='btn-buy'>购买</a><input id="coll685784" type='button' class='btn-coll' value='关注' onclick='feed_publish_collect(2,685784);' /><a class='btn-compare btn-compare-s' id='comp_685784' skuid='685784'><span>对比</span></a></div></li>
+<li sku='539348' onclick='log(7,3,539348)'><div class='p-img'><a target='_blank' href='http://www.360buy.com/product/539348.html'><img onerror="this.src='http://www.360buy.com/images/none/none_150.gif'" src='http://img13.360buyimg.com/n2/1202/04a04390-6eb0-433f-b4d2-17eae879367a.jpg' width="160" height="160" alt='苹果（APPLE）iPhone 4 8G版 3G手机（黑色）WCDMA/GSM' /></a><div class='pi8'></div></div><div class='p-name'><a target='_blank' href='http://www.360buy.com/product/539348.html'>苹果（APPLE）iPhone 4 8G版 3G手机（黑色）WCDMA/GSM<font style='color:#ff0000' class='adwords' name='539348'></font></a></div><div  class='p-price'><img onerror="this.src='http://www.360buy.com/images/no2.gif'" src="http://price.360buyimg.com/gp539348,1.png" /></div><div class='extra'><span class='evaluate'><a target='_blank' href='http://club.360buy.com/review/539348-1-1.html'>已有8092人评价</a></span><span class='reputation'>(96%好评)</span><span id='p539348'></span></div><div class='btns'><a onclick='log(1,7,539348)' href='http://gate.360buy.com/InitCart.aspx?pid=539348&pcount=1&ptype=1' target='_blank' class='btn-buy'>购买</a><input id="coll539348" type='button' class='btn-coll' value='关注' onclick='feed_publish_collect(2,539348);' /><a class='btn-compare btn-compare-s' id='comp_539348' skuid='539348'><span>对比</span></a></div></li>
+<li sku='635084' onclick='log(7,3,635084)'><div class='p-img'><a target='_blank' href='http://www.360buy.com/product/635084.html'><img onerror="this.src='http://www.360buy.com/images/none/none_150.gif'" src='http://img14.360buyimg.com/n2/g4/M03/04/19/rBEGFk-yCUMIAAAAAAFdKDx7YyAAAA74AGLwwMAAV1A301.jpg' width="160" height="160" alt='HTC 新渴望VT（T328t）3G手机（博雅黑 ）TD-SCDMA/GSM  ' /></a><div class='pi2'></div></div><div class='p-name'><a target='_blank' href='http://www.360buy.com/product/635084.html'>HTC 新渴望VT（T328t）3G手机（博雅黑 ）TD-SCDMA/GSM  <font style='color:#ff0000' class='adwords' name='635084'></font></a></div><div  class='p-price'><img onerror="this.src='http://www.360buy.com/images/no2.gif'" src="http://price.360buyimg.com/gp635084,1.png" /></div><div class='extra'><span class='evaluate'><a target='_blank' href='http://club.360buy.com/review/635084-1-1.html'>已有2501人评价</a></span><span class='reputation'>(87%好评)</span><span id='p635084'></span></div><div class='btns'><a onclick='log(1,7,635084)' href='http://gate.360buy.com/InitCart.aspx?pid=635084&pcount=1&ptype=1' target='_blank' class='btn-buy'>购买</a><input id="coll635084" type='button' class='btn-coll' value='关注' onclick='feed_publish_collect(2,635084);' /><a class='btn-compare btn-compare-s' id='comp_635084' skuid='635084'><span>对比</span></a></div></li>
+<li sku='614827' onclick='log(7,3,614827)'><div class='p-img'><a target='_blank' href='http://www.360buy.com/product/614827.html'><img onerror="this.src='http://www.360buy.com/images/none/none_150.gif'" src2='http://img12.360buyimg.com/n2/g5/M02/00/16/rBEIDE-95yUIAAAAAAF5N5DKV1MAAAInQCllHAAAXlP626.jpg' width="160" height="160" alt='HTC 灵感 XE Z715e 简约版 3G手机（黑色）WCDMA/GSM' /></a><div class='pi2'></div></div><div class='p-name'><a target='_blank' href='http://www.360buy.com/product/614827.html'>HTC 灵感 XE Z715e 简约版 3G手机（黑色）WCDMA/GSM<font style='color:#ff0000' class='adwords' name='614827'></font></a></div><div  class='p-price'><img onerror="this.src='http://www.360buy.com/images/no2.gif'" src="http://price.360buyimg.com/gp614827,1.png" /></div><div class='extra'><span class='evaluate'><a target='_blank' href='http://club.360buy.com/review/614827-1-1.html'>已有811人评价</a></span><span class='reputation'>(90%好评)</span><span id='p614827'></span></div><div class='btns'><a onclick='log(1,7,614827)' href='http://gate.360buy.com/InitCart.aspx?pid=614827&pcount=1&ptype=1' target='_blank' class='btn-buy'>购买</a><input id="coll614827" type='button' class='btn-coll' value='关注' onclick='feed_publish_collect(2,614827);' /><a class='btn-compare btn-compare-s' id='comp_614827' skuid='614827'><span>对比</span></a></div></li>
+<li sku='672302' onclick='log(7,3,672302)'><div class='p-img'><a target='_blank' href='http://www.360buy.com/product/672302.html'><img onerror="this.src='http://www.360buy.com/images/none/none_150.gif'" src2='http://img12.360buyimg.com/n2/g5/M02/13/13/rBEIDE_7vE0IAAAAAAH3Aq2ZGDAAAD1PQFqRrIAAfca763.jpg' width="160" height="160" alt='华为（HUAWEI）Ascend D1 U9500 3G手机（黑色）WCDMA/GSM ' /></a><div class='pi8'></div></div><div class='p-name'><a target='_blank' href='http://www.360buy.com/product/672302.html'>华为（HUAWEI）Ascend D1 U9500 3G手机（黑色）WCDMA/GSM <font style='color:#ff0000' class='adwords' name='672302'></font></a></div><div  class='p-price'><img onerror="this.src='http://www.360buy.com/images/no2.gif'" src="http://price.360buyimg.com/gp672302,1.png" /></div><div class='extra'><span class='evaluate'><a target='_blank' href='http://club.360buy.com/review/672302-1-1.html'>已有1592人评价</a></span><span class='reputation'>(94%好评)</span><span id='p672302'></span></div><div class='btns'><a onclick='log(1,7,672302)' href='http://gate.360buy.com/InitCart.aspx?pid=672302&pcount=1&ptype=1' target='_blank' class='btn-buy'>购买</a><input id="coll672302" type='button' class='btn-coll' value='关注' onclick='feed_publish_collect(2,672302);' /><a class='btn-compare btn-compare-s' id='comp_672302' skuid='672302'><span>对比</span></a></div></li>
+<li sku='656206' onclick='log(7,3,656206)'><div class='p-img'><a target='_blank' href='http://www.360buy.com/product/656206.html'><img onerror="this.src='http://www.360buy.com/images/none/none_150.gif'" src2='http://img11.360buyimg.com/n2/g5/M02/00/19/rBEIC0-_J5AIAAAAAAFXNd_SpUEAAAJ_wBRAXYAAVdN166.jpg' width="160" height="160" alt='三星（SAMSUNG）Galaxy S3 I9308 3G手机 (云石白) TD-SCDMA/GSM' /></a><div class='pi8'></div></div><div class='p-name'><a target='_blank' href='http://www.360buy.com/product/656206.html'>三星（SAMSUNG）Galaxy S3 I9308 3G手机 (云石白) TD-SCDMA/GSM<font style='color:#ff0000' class='adwords' name='656206'></font></a></div><div  class='p-price'><img onerror="this.src='http://www.360buy.com/images/no2.gif'" src="http://price.360buyimg.com/gp656206,1.png" /></div><div class='extra'><span class='evaluate'><a target='_blank' href='http://club.360buy.com/review/656206-1-1.html'>已有384人评价</a></span><span class='reputation'>(95%好评)</span><span id='p656206'></span></div><div class='btns'><a onclick='log(1,7,656206)' href='http://gate.360buy.com/InitCart.aspx?pid=656206&pcount=1&ptype=1' target='_blank' class='btn-buy'>购买</a><input id="coll656206" type='button' class='btn-coll' value='关注' onclick='feed_publish_collect(2,656206);' /><a class='btn-compare btn-compare-s' id='comp_656206' skuid='656206'><span>对比</span></a></div></li>
+<li sku='698864' onclick='log(7,3,698864)'><div class='p-img'><a target='_blank' href='http://www.360buy.com/product/698864.html'><img onerror="this.src='http://www.360buy.com/images/none/none_150.gif'" src2='http://img14.360buyimg.com/n2/g4/M03/06/1D/rBEGFVAkewQIAAAAAAFwl-MiIbcAABWqgJGWxMAAXCv559.jpg' width="160" height="160" alt='华为（HUAWEI）Ascend G330D（U8825D）3G手机（深灰色）WCDMA/GSM 双卡双待' /></a><div class='pi2'></div></div><div class='p-name'><a target='_blank' href='http://www.360buy.com/product/698864.html'>华为（HUAWEI）Ascend G330D（U8825D）3G手机（深灰色）WCDMA/GSM 双卡双待<font style='color:#ff0000' class='adwords' name='698864'></font></a></div><div  class='p-price'><img onerror="this.src='http://www.360buy.com/images/no2.gif'" src="http://price.360buyimg.com/gp698864,1.png" /></div><div class='extra'><span class='evaluate'><a target='_blank' href='http://club.360buy.com/review/698864-1-1.html'>已有365人评价</a></span><span class='reputation'>(89%好评)</span><span id='p698864'></span></div><div class='btns'><a onclick='log(1,7,698864)' href='http://gate.360buy.com/InitCart.aspx?pid=698864&pcount=1&ptype=1' target='_blank' class='btn-buy'>购买</a><input id="coll698864" type='button' class='btn-coll' value='关注' onclick='feed_publish_collect(2,698864);' /><a class='btn-compare btn-compare-s' id='comp_698864' skuid='698864'><span>对比</span></a></div></li>
+<li sku='692263' onclick='log(7,3,692263)'><div class='p-img'><a target='_blank' href='http://www.360buy.com/product/692263.html'><img onerror="this.src='http://www.360buy.com/images/none/none_150.gif'" src2='http://img13.360buyimg.com/n2/g5/M02/1B/14/rBEDilAWQ1QIAAAAAAHdam4XLxoAAFZigHo0b8AAd2C551.jpg' width="160" height="160" alt='联想（Lenovo）A698t 3G手机（深邃黑）TD-SCDMA/GSM' /></a><div class='pi1'></div></div><div class='p-name'><a target='_blank' href='http://www.360buy.com/product/692263.html'>联想（Lenovo）A698t 3G手机（深邃黑）TD-SCDMA/GSM<font style='color:#ff0000' class='adwords' name='692263'></font></a></div><div  class='p-price'><img onerror="this.src='http://www.360buy.com/images/no2.gif'" src="http://price.360buyimg.com/gp692263,1.png" /></div><div class='extra'><span class='evaluate'><a target='_blank' href='http://club.360buy.com/review/692263-1-1.html'>已有525人评价</a></span><span class='reputation'>(86%好评)</span><span id='p692263'></span></div><div class='btns'><a onclick='log(1,7,692263)' href='http://gate.360buy.com/InitCart.aspx?pid=692263&pcount=1&ptype=1' target='_blank' class='btn-buy'>购买</a><input id="coll692263" type='button' class='btn-coll' value='关注' onclick='feed_publish_collect(2,692263);' /><a class='btn-compare btn-compare-s' id='comp_692263' skuid='692263'><span>对比</span></a></div></li>
+<li sku='576909' onclick='log(7,3,576909)'><div class='p-img'><a target='_blank' href='http://www.360buy.com/product/576909.html'><img onerror="this.src='http://www.360buy.com/images/none/none_150.gif'" src2='http://img14.360buyimg.com/n2/g1/M04/04/13/rBEGDU-qTfwIAAAAAAGSUMTC6FYAAA5ywGbc-EAAZJo523.jpg' width="160" height="160" alt='三星（SAMSUNG）S5830I 3G手机（纯白）WCDMA/GSM' /></a></div><div class='p-name'><a target='_blank' href='http://www.360buy.com/product/576909.html'>三星（SAMSUNG）S5830I 3G手机（纯白）WCDMA/GSM<font style='color:#ff0000' class='adwords' name='576909'></font></a></div><div  class='p-price'><img onerror="this.src='http://www.360buy.com/images/no2.gif'" src="http://price.360buyimg.com/gp576909,1.png" /></div><div class='extra'><span class='evaluate'><a target='_blank' href='http://club.360buy.com/review/576909-1-1.html'>已有4944人评价</a></span><span class='reputation'>(94%好评)</span><span id='p576909'></span></div><div class='btns'><a onclick='log(1,7,576909)' href='http://gate.360buy.com/InitCart.aspx?pid=576909&pcount=1&ptype=1' target='_blank' class='btn-buy'>购买</a><input id="coll576909" type='button' class='btn-coll' value='关注' onclick='feed_publish_collect(2,576909);' /><a class='btn-compare btn-compare-s' id='comp_576909' skuid='576909'><span>对比</span></a></div></li>
+<li sku='569212' onclick='log(7,3,569212)'><div class='p-img'><a target='_blank' href='http://www.360buy.com/product/569212.html'><img onerror="this.src='http://www.360buy.com/images/none/none_150.gif'" src2='http://img12.360buyimg.com/n2/4176/de6440b2-4abe-447c-bf64-f918dbd2f93f.jpg' width="160" height="160" alt='华为（HUAWEI）Honor U8860 3G手机（黑）WCDMA/GSM 非定制' /></a><div class='pi8'></div></div><div class='p-name'><a target='_blank' href='http://www.360buy.com/product/569212.html'>华为（HUAWEI）Honor U8860 3G手机（黑）WCDMA/GSM 非定制<font style='color:#ff0000' class='adwords' name='569212'></font></a></div><div  class='p-price'><img onerror="this.src='http://www.360buy.com/images/no2.gif'" src="http://price.360buyimg.com/gp569212,1.png" /></div><div class='extra'><span class='evaluate'><a target='_blank' href='http://club.360buy.com/review/569212-1-1.html'>已有12882人评价</a></span><span class='reputation'>(93%好评)</span><span id='p569212'></span></div><div class='btns'><a onclick='log(1,7,569212)' href='http://gate.360buy.com/InitCart.aspx?pid=569212&pcount=1&ptype=1' target='_blank' class='btn-buy'>购买</a><input id="coll569212" type='button' class='btn-coll' value='关注' onclick='feed_publish_collect(2,569212);' /><a class='btn-compare btn-compare-s' id='comp_569212' skuid='569212'><span>对比</span></a></div></li>
+<li sku='617915' onclick='log(7,3,617915)'><div class='p-img'><a target='_blank' href='http://www.360buy.com/product/617915.html'><img onerror="this.src='http://www.360buy.com/images/none/none_150.gif'" src2='http://img10.360buyimg.com/n2/g4/M04/00/14/rBEGFk-XWucIAAAAAAFvEbJFRL0AAAIDwCz1d8AAW8p208.jpg' width="160" height="160" alt='摩托罗拉（Motorola）RAZR 锋芒 XT910 MAXX 劲量版 3G手机（黑色）WCDMA/GSM ' /></a><div class='pi15'></div></div><div class='p-name'><a target='_blank' href='http://www.360buy.com/product/617915.html'>摩托罗拉（Motorola）RAZR 锋芒 XT910 MAXX 劲量版 3G手机（黑色）WCDMA/GSM <font style='color:#ff0000' class='adwords' name='617915'></font></a></div><div  class='p-price'><img onerror="this.src='http://www.360buy.com/images/no2.gif'" src="http://price.360buyimg.com/gp617915,1.png" /></div><div class='extra'><span class='evaluate'><a target='_blank' href='http://club.360buy.com/review/617915-1-1.html'>已有723人评价</a></span><span class='reputation'>(88%好评)</span><span id='p617915'></span></div><div class='btns'><a onclick='log(1,7,617915)' href='http://gate.360buy.com/InitCart.aspx?pid=617915&pcount=1&ptype=1' target='_blank' class='btn-buy'>购买</a><input id="coll617915" type='button' class='btn-coll' value='关注' onclick='feed_publish_collect(2,617915);' /><a class='btn-compare btn-compare-s' id='comp_617915' skuid='617915'><span>对比</span></a></div></li>
+<li sku='410323' onclick='log(7,3,410323)'><div class='p-img'><a target='_blank' href='http://www.360buy.com/product/410323.html'><img onerror="this.src='http://www.360buy.com/images/none/none_150.gif'" src2='http://img13.360buyimg.com/n2/g5/M02/00/0C/rBEDik-7L9EIAAAAAAFTtPK6gwAAAAE1AHd-nYAAVPM050.jpg' width="160" height="160" alt='诺基亚（NOKIA）C5-03 标准版 3G手机（黑色）WCDMA/GSM 非定制机' /></a><div class='pi2'></div></div><div class='p-name'><a target='_blank' href='http://www.360buy.com/product/410323.html'>诺基亚（NOKIA）C5-03 标准版 3G手机（黑色）WCDMA/GSM 非定制机<font style='color:#ff0000' class='adwords' name='410323'></font></a></div><div  class='p-price'><img onerror="this.src='http://www.360buy.com/images/no2.gif'" src="http://price.360buyimg.com/gp410323,1.png" /></div><div class='extra'><span class='evaluate'><a target='_blank' href='http://club.360buy.com/review/410323-1-1.html'>已有12460人评价</a></span><span class='reputation'>(88%好评)</span><span id='p410323'></span></div><div class='btns'><a onclick='log(1,7,410323)' href='http://gate.360buy.com/InitCart.aspx?pid=410323&pcount=1&ptype=1' target='_blank' class='btn-buy'>购买</a><input id="coll410323" type='button' class='btn-coll' value='关注' onclick='feed_publish_collect(2,410323);' /><a class='btn-compare btn-compare-s' id='comp_410323' skuid='410323'><span>对比</span></a></div></li>
+<li sku='588991' onclick='log(7,3,588991)'><div class='p-img'><a target='_blank' href='http://www.360buy.com/product/588991.html'><img onerror="this.src='http://www.360buy.com/images/none/none_150.gif'" src2='http://img11.360buyimg.com/n2/g1/M02/04/15/rBEGDU-silsIAAAAAAFarHmr1uEAAA6awL6EzwAAVrE088.jpg' width="160" height="160" alt='摩托罗拉（Motorola）XT535 3G手机（黑色）WCDMA/GSM' /></a><div class='pi2'></div></div><div class='p-name'><a target='_blank' href='http://www.360buy.com/product/588991.html'>摩托罗拉（Motorola）XT535 3G手机（黑色）WCDMA/GSM<font style='color:#ff0000' class='adwords' name='588991'></font></a></div><div  class='p-price'><img onerror="this.src='http://www.360buy.com/images/no2.gif'" src="http://price.360buyimg.com/gp588991,1.png" /></div><div class='extra'><span class='evaluate'><a target='_blank' href='http://club.360buy.com/review/588991-1-1.html'>已有1147人评价</a></span><span class='reputation'>(89%好评)</span><span id='p588991'></span></div><div class='btns'><a onclick='log(1,7,588991)' href='http://gate.360buy.com/InitCart.aspx?pid=588991&pcount=1&ptype=1' target='_blank' class='btn-buy'>购买</a><input id="coll588991" type='button' class='btn-coll' value='关注' onclick='feed_publish_collect(2,588991);' /><a class='btn-compare btn-compare-s' id='comp_588991' skuid='588991'><span>对比</span></a></div></li>
+<li sku='616988' onclick='log(7,3,616988)'><div class='p-img'><a target='_blank' href='http://www.360buy.com/product/616988.html'><img onerror="this.src='http://www.360buy.com/images/none/none_150.gif'" src2='http://img13.360buyimg.com/n2/g5/M01/00/0A/rBEIDE-6JA8IAAAAAAGPNzY2bsYAAAD7AN1610AAY9P610.jpg' width="160" height="160" alt='中兴（ZTE）U970 3G手机（黑色）TD-SCDMA/GSM 非定制' /></a><div class='pi3'></div></div><div class='p-name'><a target='_blank' href='http://www.360buy.com/product/616988.html'>中兴（ZTE）U970 3G手机（黑色）TD-SCDMA/GSM 非定制<font style='color:#ff0000' class='adwords' name='616988'></font></a></div><div  class='p-price'><img onerror="this.src='http://www.360buy.com/images/no2.gif'" src="http://price.360buyimg.com/gp616988,1.png" /></div><div class='extra'><span class='evaluate'><a target='_blank' href='http://club.360buy.com/review/616988-1-1.html'>已有5689人评价</a></span><span class='reputation'>(87%好评)</span><span id='p616988'></span></div><div class='btns'><a onclick='log(1,7,616988)' href='http://gate.360buy.com/InitCart.aspx?pid=616988&pcount=1&ptype=1' target='_blank' class='btn-buy'>购买</a><input id="coll616988" type='button' class='btn-coll' value='关注' onclick='feed_publish_collect(2,616988);' /><a class='btn-compare btn-compare-s' id='comp_616988' skuid='616988'><span>对比</span></a></div></li>
+<li sku='694759' onclick='log(7,3,694759)'><div class='p-img'><a target='_blank' href='http://www.360buy.com/product/694759.html'><img onerror="this.src='http://www.360buy.com/images/none/none_150.gif'" src2='http://img14.360buyimg.com/n2/g5/M02/1B/1B/rBEIC1AfQHcIAAAAAAE66MgQFJIAAFcEgNi_44AATsA279.jpg' width="160" height="160" alt='联想（Lenovo）S899t 3G手机（深邃黑）TD-SCDMA/GSM' /></a><div class='pi1'></div></div><div class='p-name'><a target='_blank' href='http://www.360buy.com/product/694759.html'>联想（Lenovo）S899t 3G手机（深邃黑）TD-SCDMA/GSM<font style='color:#ff0000' class='adwords' name='694759'></font></a></div><div  class='p-price'><img onerror="this.src='http://www.360buy.com/images/no2.gif'" src="http://price.360buyimg.com/gp694759,1.png" /></div><div class='extra'><span class='evaluate'><a target='_blank' href='http://club.360buy.com/review/694759-1-1.html'>已有261人评价</a></span><span class='reputation'>(84%好评)</span><span id='p694759'></span></div><div class='btns'><a onclick='log(1,7,694759)' href='http://gate.360buy.com/InitCart.aspx?pid=694759&pcount=1&ptype=1' target='_blank' class='btn-buy'>购买</a><input id="coll694759" type='button' class='btn-coll' value='关注' onclick='feed_publish_collect(2,694759);' /><a class='btn-compare btn-compare-s' id='comp_694759' skuid='694759'><span>对比</span></a></div></li>
+<li sku='551507' onclick='log(7,3,551507)'><div class='p-img'><a target='_blank' href='http://www.360buy.com/product/551507.html'><img onerror="this.src='http://www.360buy.com/images/none/none_150.gif'" src2='http://img12.360buyimg.com/n2/1166/6400f362-76de-4c8c-b28c-bb6922604c57.jpg' width="160" height="160" alt='摩托罗拉（Motorola）XT615 3G手机（黑色）WCDMA/GSM' /></a><div class='pi2'></div></div><div class='p-name'><a target='_blank' href='http://www.360buy.com/product/551507.html'>摩托罗拉（Motorola）XT615 3G手机（黑色）WCDMA/GSM<font style='color:#ff0000' class='adwords' name='551507'></font></a></div><div  class='p-price'><img onerror="this.src='http://www.360buy.com/images/no2.gif'" src="http://price.360buyimg.com/gp551507,1.png" /></div><div class='extra'><span class='evaluate'><a target='_blank' href='http://club.360buy.com/review/551507-1-1.html'>已有4380人评价</a></span><span class='reputation'>(86%好评)</span><span id='p551507'></span></div><div class='btns'><a onclick='log(1,7,551507)' href='http://gate.360buy.com/InitCart.aspx?pid=551507&pcount=1&ptype=1' target='_blank' class='btn-buy'>购买</a><input id="coll551507" type='button' class='btn-coll' value='关注' onclick='feed_publish_collect(2,551507);' /><a class='btn-compare btn-compare-s' id='comp_551507' skuid='551507'><span>对比</span></a></div></li>
+<li sku='529246' onclick='log(7,3,529246)'><div class='p-img'><a target='_blank' href='http://www.360buy.com/product/529246.html'><img onerror="this.src='http://www.360buy.com/images/none/none_150.gif'" src2='http://img11.360buyimg.com/n2/2122/ef4c1fcd-2b85-4cee-982c-47c4d7a8b25d.jpg' width="160" height="160" alt='三星（SAMSUNG）I8150 3G手机（黑色）WCDMA/GSM' /></a></div><div class='p-name'><a target='_blank' href='http://www.360buy.com/product/529246.html'>三星（SAMSUNG）I8150 3G手机（黑色）WCDMA/GSM<font style='color:#ff0000' class='adwords' name='529246'></font></a></div><div  class='p-price'><img onerror="this.src='http://www.360buy.com/images/no2.gif'" src="http://price.360buyimg.com/gp529246,1.png" /></div><div class='extra'><span class='evaluate'><a target='_blank' href='http://club.360buy.com/review/529246-1-1.html'>已有8636人评价</a></span><span class='reputation'>(95%好评)</span><span id='p529246'></span></div><div class='btns'><a onclick='log(1,7,529246)' href='http://gate.360buy.com/InitCart.aspx?pid=529246&pcount=1&ptype=1' target='_blank' class='btn-buy'>购买</a><input id="coll529246" type='button' class='btn-coll' value='关注' onclick='feed_publish_collect(2,529246);' /><a class='btn-compare btn-compare-s' id='comp_529246' skuid='529246'><span>对比</span></a></div></li>
+<li sku='605507' onclick='log(7,3,605507)'><div class='p-img'><a target='_blank' href='http://www.360buy.com/product/605507.html'><img onerror="this.src='http://www.360buy.com/images/none/none_150.gif'" src2='http://img12.360buyimg.com/n2/2267/cfe805e7-ccc1-4aa1-9688-ea4db70e21b9.jpg' width="160" height="160" alt='中兴（ZTE）V889D 3G手机（黑色）WCDMA/GSM 双卡双待 联通定制' /></a></div><div class='p-name'><a target='_blank' href='http://www.360buy.com/product/605507.html'>中兴（ZTE）V889D 3G手机（黑色）WCDMA/GSM 双卡双待 联通定制<font style='color:#ff0000' class='adwords' name='605507'></font></a></div><div  class='p-price'><img onerror="this.src='http://www.360buy.com/images/no2.gif'" src="http://price.360buyimg.com/gp605507,1.png" /></div><div class='extra'><span class='evaluate'><a target='_blank' href='http://club.360buy.com/review/605507-1-1.html'>已有4567人评价</a></span><span class='reputation'>(89%好评)</span><span id='p605507'></span></div><div class='btns'><a onclick='log(1,7,605507)' href='http://gate.360buy.com/InitCart.aspx?pid=605507&pcount=1&ptype=1' target='_blank' class='btn-buy'>购买</a><input id="coll605507" type='button' class='btn-coll' value='关注' onclick='feed_publish_collect(2,605507);' /><a class='btn-compare btn-compare-s' id='comp_605507' skuid='605507'><span>对比</span></a></div></li>
+<li sku='198955' onclick='log(7,3,198955)'><div class='p-img'><a target='_blank' href='http://www.360buy.com/product/198955.html'><img onerror="this.src='http://www.360buy.com/images/none/none_150.gif'" src2='http://img10.360buyimg.com/n2/358/e2d99477-aa07-4a75-9b1e-909a20a7b129.jpg' width="160" height="160" alt='诺基亚（NOKIA）5233 GSM手机（黑）非定制机' /></a><div class='pi7'></div></div><div class='p-name'><a target='_blank' href='http://www.360buy.com/product/198955.html'>诺基亚（NOKIA）5233 GSM手机（黑）非定制机<font style='color:#ff0000' class='adwords' name='198955'></font></a></div><div  class='p-price'><img onerror="this.src='http://www.360buy.com/images/no2.gif'" src="http://price.360buyimg.com/gp198955,1.png" /></div><div class='extra'><span class='evaluate'><a target='_blank' href='http://club.360buy.com/review/198955-1-1.html'>已有107050人评价</a></span><span class='reputation'>(96%好评)</span><span id='p198955'></span></div><div class='btns'><a onclick='log(1,7,198955)' href='http://gate.360buy.com/InitCart.aspx?pid=198955&pcount=1&ptype=1' target='_blank' class='btn-buy'>购买</a><input id="coll198955" type='button' class='btn-coll' value='关注' onclick='feed_publish_collect(2,198955);' /><a class='btn-compare btn-compare-s' id='comp_198955' skuid='198955'><span>对比</span></a></div></li>
+<li sku='389079' onclick='log(7,3,389079)'><div class='p-img'><a target='_blank' href='http://www.360buy.com/product/389079.html'><img onerror="this.src='http://www.360buy.com/images/none/none_150.gif'" src2='http://img14.360buyimg.com/n2/g1/M04/04/17/rBEGDk-wgYYIAAAAAAEuXXy2wewAAA7UQEJcdIAAS51351.jpg' width="160" height="160" alt='魅族（MEIZU）M9 8G 3G手机（黑色）WCDMA/GSM' /></a><div class='pi3'></div></div><div class='p-name'><a target='_blank' href='http://www.360buy.com/product/389079.html'>魅族（MEIZU）M9 8G 3G手机（黑色）WCDMA/GSM<font style='color:#ff0000' class='adwords' name='389079'></font></a></div><div  class='p-price'><img onerror="this.src='http://www.360buy.com/images/no2.gif'" src="http://price.360buyimg.com/gp389079,1.png" /></div><div class='extra'><span class='evaluate'><a target='_blank' href='http://club.360buy.com/review/389079-1-1.html'>已有5869人评价</a></span><span class='reputation'>(92%好评)</span><span id='p389079'></span></div><div class='btns'><a onclick='log(1,7,389079)' href='http://gate.360buy.com/InitCart.aspx?pid=389079&pcount=1&ptype=1' target='_blank' class='btn-buy'>购买</a><input id="coll389079" type='button' class='btn-coll' value='关注' onclick='feed_publish_collect(2,389079);' /><a class='btn-compare btn-compare-s' id='comp_389079' skuid='389079'><span>对比</span></a></div></li>
+<li sku='182869' onclick='log(7,3,182869)'><div class='p-img'><a target='_blank' href='http://www.360buy.com/product/182869.html'><img onerror="this.src='http://www.360buy.com/images/none/none_150.gif'" src2='http://img14.360buyimg.com/n2/g5/M02/00/1B/rBEDik-_WIYIAAAAAADkDt0QcA4AAAKvAHYSNQAAOQm825.jpg' width="160" height="160" alt='诺基亚（NOKIA）2730C  3G手机（黑色）WCDMA/GSM 非定制' /></a><div class='pi7'></div></div><div class='p-name'><a target='_blank' href='http://www.360buy.com/product/182869.html'>诺基亚（NOKIA）2730C  3G手机（黑色）WCDMA/GSM 非定制<font style='color:#ff0000' class='adwords' name='182869'></font></a></div><div  class='p-price'><img onerror="this.src='http://www.360buy.com/images/no2.gif'" src="http://price.360buyimg.com/gp182869,1.png" /></div><div class='extra'><span class='evaluate'><a target='_blank' href='http://club.360buy.com/review/182869-1-1.html'>已有9706人评价</a></span><span class='reputation'>(93%好评)</span><span id='p182869'></span></div><div class='btns'><a onclick='log(1,7,182869)' href='http://gate.360buy.com/InitCart.aspx?pid=182869&pcount=1&ptype=1' target='_blank' class='btn-buy'>购买</a><input id="coll182869" type='button' class='btn-coll' value='关注' onclick='feed_publish_collect(2,182869);' /><a class='btn-compare btn-compare-s' id='comp_182869' skuid='182869'><span>对比</span></a></div></li>
+<li sku='653483' onclick='log(7,3,653483)'><div class='p-img'><a target='_blank' href='http://www.360buy.com/product/653483.html'><img onerror="this.src='http://www.360buy.com/images/none/none_150.gif'" src2='http://img13.360buyimg.com/n2/g5/M01/01/08/rBEIDE_FfpMIAAAAAAGHPEtr0tQAAAPqgE8jJ8AAYdU648.jpg' width="160" height="160" alt='华为（HUAWEI）C8812 3G手机 (白色）CDMA2000/CDMA 电信定制' /></a></div><div class='p-name'><a target='_blank' href='http://www.360buy.com/product/653483.html'>华为（HUAWEI）C8812 3G手机 (白色）CDMA2000/CDMA 电信定制<font style='color:#ff0000' class='adwords' name='653483'></font></a></div><div  class='p-price'><img onerror="this.src='http://www.360buy.com/images/no2.gif'" src="http://price.360buyimg.com/gp653483,1.png" /></div><div class='extra'><span class='evaluate'><a target='_blank' href='http://club.360buy.com/review/653483-1-1.html'>已有624人评价</a></span><span class='reputation'>(94%好评)</span><span id='p653483'></span></div><div class='btns'><a onclick='log(1,7,653483)' href='http://gate.360buy.com/InitCart.aspx?pid=653483&pcount=1&ptype=1' target='_blank' class='btn-buy'>购买</a><input id="coll653483" type='button' class='btn-coll' value='关注' onclick='feed_publish_collect(2,653483);' /><a class='btn-compare btn-compare-s' id='comp_653483' skuid='653483'><span>对比</span></a></div></li>
+<li sku='576960' onclick='log(7,3,576960)'><div class='p-img'><a target='_blank' href='http://www.360buy.com/product/576960.html'><img onerror="this.src='http://www.360buy.com/images/none/none_150.gif'" src2='http://img10.360buyimg.com/n2/3020/23e64a54-7309-4e93-a159-7896903e9e51.jpg' width="160" height="160" alt='三星（SAMSUNG）I929 3G手机 （金属灰）CDMA2000/GSM 双模双待 电信定制' /></a><div class='pi2'></div></div><div class='p-name'><a target='_blank' href='http://www.360buy.com/product/576960.html'>三星（SAMSUNG）I929 3G手机 （金属灰）CDMA2000/GSM 双模双待 电信定制<font style='color:#ff0000' class='adwords' name='576960'></font></a></div><div  class='p-price'><img onerror="this.src='http://www.360buy.com/images/no2.gif'" src="http://price.360buyimg.com/gp576960,1.png" /></div><div class='extra'><span class='evaluate'><a target='_blank' href='http://club.360buy.com/review/576960-1-1.html'>已有1117人评价</a></span><span class='reputation'>(95%好评)</span><span id='p576960'></span></div><div class='btns'><a onclick='log(1,7,576960)' href='http://gate.360buy.com/InitCart.aspx?pid=576960&pcount=1&ptype=1' target='_blank' class='btn-buy'>购买</a><input id="coll576960" type='button' class='btn-coll' value='关注' onclick='feed_publish_collect(2,576960);' /><a class='btn-compare btn-compare-s' id='comp_576960' skuid='576960'><span>对比</span></a></div></li>
+<li sku='624187' onclick='log(7,3,624187)'><div class='p-img'><a target='_blank' href='http://www.360buy.com/product/624187.html'><img onerror="this.src='http://www.360buy.com/images/none/none_150.gif'" src2='http://img12.360buyimg.com/n2/g3/M04/01/0D/rBEGFE-adpcIAAAAAADltuYFlYsAAARnwFfGqoAAOXO241.jpg' width="160" height="160" alt='HTC 新渴望 T328d 3G手机（白色）CDMA2000/GSM 双模双待双通 电信定制' /></a></div><div class='p-name'><a target='_blank' href='http://www.360buy.com/product/624187.html'>HTC 新渴望 T328d 3G手机（白色）CDMA2000/GSM 双模双待双通 电信定制<font style='color:#ff0000' class='adwords' name='624187'></font></a></div><div  class='p-price'><img onerror="this.src='http://www.360buy.com/images/no2.gif'" src="http://price.360buyimg.com/gp624187,1.png" /></div><div class='extra'><span class='evaluate'><a target='_blank' href='http://club.360buy.com/review/624187-1-1.html'>已有1645人评价</a></span><span class='reputation'>(92%好评)</span><span id='p624187'></span></div><div class='btns'><a onclick='log(1,7,624187)' href='http://gate.360buy.com/InitCart.aspx?pid=624187&pcount=1&ptype=1' target='_blank' class='btn-buy'>购买</a><input id="coll624187" type='button' class='btn-coll' value='关注' onclick='feed_publish_collect(2,624187);' /><a class='btn-compare btn-compare-s' id='comp_624187' skuid='624187'><span>对比</span></a></div></li>
+<li sku='519798' onclick='log(7,3,519798)'><div class='p-img'><a target='_blank' href='http://www.360buy.com/product/519798.html'><img onerror="this.src='http://www.360buy.com/images/none/none_150.gif'" src2='http://img13.360buyimg.com/n2/3740/c4c5f833-9aa1-41b5-a011-68b4308f01b4.jpg' width="160" height="160" alt='摩托罗拉（Motorola）ME863 3G手机（智铂灰）WCDMA/GSM' /></a></div><div class='p-name'><a target='_blank' href='http://www.360buy.com/product/519798.html'>摩托罗拉（Motorola）ME863 3G手机（智铂灰）WCDMA/GSM<font style='color:#ff0000' class='adwords' name='519798'></font></a></div><div  class='p-price'><img onerror="this.src='http://www.360buy.com/images/no2.gif'" src="http://price.360buyimg.com/gp519798,1.png" /></div><div class='extra'><span class='evaluate'><a target='_blank' href='http://club.360buy.com/review/519798-1-1.html'>已有2623人评价</a></span><span class='reputation'>(88%好评)</span><span id='p519798'></span></div><div class='btns'><a onclick='log(1,7,519798)' href='http://gate.360buy.com/InitCart.aspx?pid=519798&pcount=1&ptype=1' target='_blank' class='btn-buy'>购买</a><input id="coll519798" type='button' class='btn-coll' value='关注' onclick='feed_publish_collect(2,519798);' /><a class='btn-compare btn-compare-s' id='comp_519798' skuid='519798'><span>对比</span></a></div></li>
+<li sku='521464' onclick='log(7,3,521464)'><div class='p-img'><a target='_blank' href='http://www.360buy.com/product/521464.html'><img onerror="this.src='http://www.360buy.com/images/none/none_150.gif'" src2='http://img14.360buyimg.com/n2/g1/M00/04/18/rBEGDk-xoWwIAAAAAAGfhUg4zbgAAA7oQEQyvYAAZ-d393.jpg' width="160" height="160" alt='三星（SAMSUNG）I9100G 3G手机（黑色）WCDMA/GSM' /></a></div><div class='p-name'><a target='_blank' href='http://www.360buy.com/product/521464.html'>三星（SAMSUNG）I9100G 3G手机（黑色）WCDMA/GSM<font style='color:#ff0000' class='adwords' name='521464'></font></a></div><div  class='p-price'><img onerror="this.src='http://www.360buy.com/images/no2.gif'" src="http://price.360buyimg.com/gp521464,1.png" /></div><div class='extra'><span class='evaluate'><a target='_blank' href='http://club.360buy.com/review/521464-1-1.html'>已有8803人评价</a></span><span class='reputation'>(95%好评)</span><span id='p521464'></span></div><div class='btns'><a onclick='log(1,7,521464)' href='http://gate.360buy.com/InitCart.aspx?pid=521464&pcount=1&ptype=1' target='_blank' class='btn-buy'>购买</a><input id="coll521464" type='button' class='btn-coll' value='关注' onclick='feed_publish_collect(2,521464);' /><a class='btn-compare btn-compare-s' id='comp_521464' skuid='521464'><span>对比</span></a></div></li>
+<li sku='418654' onclick='log(7,3,418654)'><div class='p-img'><a target='_blank' href='http://www.360buy.com/product/418654.html'><img onerror="this.src='http://www.360buy.com/images/none/none_150.gif'" src2='http://img14.360buyimg.com/n2/4487/2d28a276-26a8-41fd-bea2-d5d2591e3125.jpg' width="160" height="160" alt='摩托罗拉（Motorola）XT882（电幻黑）CDMA2000/GSM 双模双待 电信定制' /></a><div class='pi3'></div></div><div class='p-name'><a target='_blank' href='http://www.360buy.com/product/418654.html'>摩托罗拉（Motorola）XT882（电幻黑）CDMA2000/GSM 双模双待 电信定制<font style='color:#ff0000' class='adwords' name='418654'></font></a></div><div  class='p-price'><img onerror="this.src='http://www.360buy.com/images/no2.gif'" src="http://price.360buyimg.com/gp418654,1.png" /></div><div class='extra'><span class='evaluate'><a target='_blank' href='http://club.360buy.com/review/418654-1-1.html'>已有2336人评价</a></span><span class='reputation'>(93%好评)</span><span id='p418654'></span></div><div class='btns'><a onclick='log(1,7,418654)' href='http://gate.360buy.com/InitCart.aspx?pid=418654&pcount=1&ptype=1' target='_blank' class='btn-buy'>购买</a><input id="coll418654" type='button' class='btn-coll' value='关注' onclick='feed_publish_collect(2,418654);' /><a class='btn-compare btn-compare-s' id='comp_418654' skuid='418654'><span>对比</span></a></div></li>
+<li sku='679236' onclick='log(7,3,679236)'><div class='p-img'><a target='_blank' href='http://www.360buy.com/product/679236.html'><img onerror="this.src='http://www.360buy.com/images/none/none_150.gif'" src2='http://img11.360buyimg.com/n2/g5/M02/13/1F/rBEIDE_9QQgIAAAAAAE7asx1FiUAAD5rwAGYRoAATuC859.jpg' width="160" height="160" alt='联想（Lenovo）S850e 3G手机（黑色）CDMA2000/GSM 双模双待 电信定制' /></a><div class='pi1'></div></div><div class='p-name'><a target='_blank' href='http://www.360buy.com/product/679236.html'>联想（Lenovo）S850e 3G手机（黑色）CDMA2000/GSM 双模双待 电信定制<font style='color:#ff0000' class='adwords' name='679236'></font></a></div><div  class='p-price'><img onerror="this.src='http://www.360buy.com/images/no2.gif'" src="http://price.360buyimg.com/gp679236,1.png" /></div><div class='extra'><span class='evaluate'><a target='_blank' href='http://club.360buy.com/review/679236-1-1.html'>已有853人评价</a></span><span class='reputation'>(87%好评)</span><span id='p679236'></span></div><div class='btns'><a onclick='log(1,7,679236)' href='http://gate.360buy.com/InitCart.aspx?pid=679236&pcount=1&ptype=1' target='_blank' class='btn-buy'>购买</a><input id="coll679236" type='button' class='btn-coll' value='关注' onclick='feed_publish_collect(2,679236);' /><a class='btn-compare btn-compare-s' id='comp_679236' skuid='679236'><span>对比</span></a></div></li>
+<li sku='598523' onclick='log(7,3,598523)'><div class='p-img'><a target='_blank' href='http://www.360buy.com/product/598523.html'><img onerror="this.src='http://www.360buy.com/images/none/none_150.gif'" src2='http://img13.360buyimg.com/n2/1561/85e948d4-efdd-4af1-86fb-5a2fe86e7ea3.jpg' width="160" height="160" alt='苹果（APPLE）iPhone 4S 16G版 3G手机（黑色）电信版 非合约版' /></a><div class='pi7'></div></div><div class='p-name'><a target='_blank' href='http://www.360buy.com/product/598523.html'>苹果（APPLE）iPhone 4S 16G版 3G手机（黑色）电信版 非合约版<font style='color:#ff0000' class='adwords' name='598523'></font></a></div><div  class='p-price'><img onerror="this.src='http://www.360buy.com/images/no2.gif'" src="http://price.360buyimg.com/gp598523,1.png" /></div><div class='extra'><span class='evaluate'><a target='_blank' href='http://club.360buy.com/review/598523-1-1.html'>已有694人评价</a></span><span class='reputation'>(96%好评)</span><span id='p598523'></span></div><div class='btns'><a onclick='log(1,7,598523)' href='http://gate.360buy.com/InitCart.aspx?pid=598523&pcount=1&ptype=1' target='_blank' class='btn-buy'>购买</a><input id="coll598523" type='button' class='btn-coll' value='关注' onclick='feed_publish_collect(2,598523);' /><a class='btn-compare btn-compare-s' id='comp_598523' skuid='598523'><span>对比</span></a></div></li>
+<li sku='656205' onclick='log(7,3,656205)'><div class='p-img'><a target='_blank' href='http://www.360buy.com/product/656205.html'><img onerror="this.src='http://www.360buy.com/images/none/none_150.gif'" src2='http://img10.360buyimg.com/n2/g5/M02/00/19/rBEDik-_J4oIAAAAAAFaSlR69JgAAAJ_wBtSaIAAVpi933.jpg' width="160" height="160" alt='三星（SAMSUNG）Galaxy S3 I9308 3G手机 (青玉蓝) TD-SCDMA/GSM' /></a><div class='pi8'></div></div><div class='p-name'><a target='_blank' href='http://www.360buy.com/product/656205.html'>三星（SAMSUNG）Galaxy S3 I9308 3G手机 (青玉蓝) TD-SCDMA/GSM<font style='color:#ff0000' class='adwords' name='656205'></font></a></div><div  class='p-price'><img onerror="this.src='http://www.360buy.com/images/no2.gif'" src="http://price.360buyimg.com/gp656205,1.png" /></div><div class='extra'><span class='evaluate'><a target='_blank' href='http://club.360buy.com/review/656205-1-1.html'>已有375人评价</a></span><span class='reputation'>(94%好评)</span><span id='p656205'></span></div><div class='btns'><a onclick='log(1,7,656205)' href='http://gate.360buy.com/InitCart.aspx?pid=656205&pcount=1&ptype=1' target='_blank' class='btn-buy'>购买</a><input id="coll656205" type='button' class='btn-coll' value='关注' onclick='feed_publish_collect(2,656205);' /><a class='btn-compare btn-compare-s' id='comp_656205' skuid='656205'><span>对比</span></a></div></li>
+<li sku='495612' onclick='log(7,3,495612)'><div class='p-img'><a target='_blank' href='http://www.360buy.com/product/495612.html'><img onerror="this.src='http://www.360buy.com/images/none/none_150.gif'" src2='http://img12.360buyimg.com/n2/3769/321470a3-f46f-4d54-9d01-6b62e0390885.jpg' width="160" height="160" alt='三星（SAMSUNG）I9008L 3G手机（黑色）TD-SCDMA/GSM' /></a><div class='pi2'></div></div><div class='p-name'><a target='_blank' href='http://www.360buy.com/product/495612.html'>三星（SAMSUNG）I9008L 3G手机（黑色）TD-SCDMA/GSM<font style='color:#ff0000' class='adwords' name='495612'></font></a></div><div  class='p-price'><img onerror="this.src='http://www.360buy.com/images/no2.gif'" src="http://price.360buyimg.com/gp495612,1.png" /></div><div class='extra'><span class='evaluate'><a target='_blank' href='http://club.360buy.com/review/495612-1-1.html'>已有1757人评价</a></span><span class='reputation'>(89%好评)</span><span id='p495612'></span></div><div class='btns'><a onclick='log(1,7,495612)' href='http://gate.360buy.com/InitCart.aspx?pid=495612&pcount=1&ptype=1' target='_blank' class='btn-buy'>购买</a><input id="coll495612" type='button' class='btn-coll' value='关注' onclick='feed_publish_collect(2,495612);' /><a class='btn-compare btn-compare-s' id='comp_495612' skuid='495612'><span>对比</span></a></div></li>
+<script type="text/javascript">var jdwsment = {"skuids" : "570127,570129,684624,576911,539349,685784,539348,635084,614827,672302,656206,698864,692263,576909,569212,617915,410323,588991,616988,694759,551507,529246,605507,198955,389079,182869,653483,576960,624187,519798,521464,418654,679236,598523,656205,495612","key":"2F3C07D27F2D7760C4C6E9255161A1E94DD1868C"};</script>
+<!-- <cache>hits</cache> -->
+
+				</ul>
+
+			</div><!--plist end-->			
+
+			<div class="m clearfix">
+
+				<div class="pagin fr">
+
+                    <span class="prev-disabled">上一页<b></b></span><a href="652-653-655-0-0-0-0-0-0-0-1-1-1.html" class="current">1</a><a href="652-653-655-0-0-0-0-0-0-0-1-1-2.html" >2</a><a href="652-653-655-0-0-0-0-0-0-0-1-1-3.html" >3</a><span class="text">…</span><a href="652-653-655-0-0-0-0-0-0-0-1-1-27.html" >27</a><a href="652-653-655-0-0-0-0-0-0-0-1-1-2.html" class="next" >下一页<b></b></a>
+
+				</div><!--pagin end-->
+
+			</div>
+
+				
+
+			<div class="m" id="r-entry">
+
+				<strong>不知道选哪款商品？试试向京东百万资深会员提问，请他们帮您来选购</strong><a href="http://s.360buy.com?cat=655" target="_blank" class="btn_entry">请大家给我推荐</a>
+
+			</div>
+
+			
+
+		</div><!--right-extra end-->
+
+	    <script type="text/javascript"> function lazyload(option) { var settings = { defObj: null, defHeight: 0 }; settings = $.extend(settings, option || {}); var defHeight = settings.defHeight, defObj = (typeof settings.defObj == "object") ? settings.defObj.find("img") : $(settings.defObj).find("img"); var pageTop = function() { var d = document, y = (navigator.userAgent.toLowerCase().match(/iPad/i) == "ipad") ? window.pageYOffset : Math.max(d.documentElement.scrollTop, d.body.scrollTop); return d.documentElement.clientHeight + y - settings.defHeight }; var imgLoad = function() { defObj.each(function() { if ($(this).offset().top <= pageTop()) { var src2 = $(this).attr("src2"); if (src2) { $(this).attr("src", src2).removeAttr("src2") } } }) }; imgLoad(); $(window).bind("scroll", function() { imgLoad() }) } lazyload({ defObj: "#plist" })</script>
+
+		<div class="left">
+
+			<div class="m" id="sortlist" clstag="thirdtype|keycount|thirdtype|sortlist">
+
+				<div class="mt">
+
+					<h2>手机数码</h2>
+
+				</div>
+
+				<div class="mc">
+
+                    <div class='item current'><h3><b></b>手机通讯</h3><ul><li><a href=http://www.360buy.com/products/652-653-655.html>手机</a></li><li><a href=http://www.360buy.com/products/652-653-659.html>对讲机</a></li></ul></div><div class='item'><h3><b></b>运营商</h3><ul><li><a href=http://www.360buy.com/products/652-6880-6881.html>购机送费</a></li><li><a href=http://www.360buy.com/products/652-6880-6882.html>“0”元购机</a></li><li><a href=http://www.360buy.com/products/652-6880-1195.html>选号入网</a></li></ul></div><div class='item'><h3><b></b>手机配件</h3><ul><li><a href=http://www.360buy.com/products/652-830-860.html>手机电池</a></li><li><a href=http://www.360buy.com/products/652-830-863.html>蓝牙耳机</a></li><li><a href=http://www.360buy.com/products/652-830-861.html>手机充电器</a></li><li><a href=http://www.360buy.com/products/652-830-862.html>手机耳机</a></li><li><a href=http://www.360buy.com/products/652-830-867.html>手机贴膜</a></li><li><a href=http://www.360buy.com/products/652-830-1099.html>手机存储卡</a></li><li><a href=http://www.360buy.com/products/652-830-866.html>手机保护套</a></li><li><a href=http://www.360buy.com/products/652-830-864.html>车载配件</a></li><li><a href=http://www.360buy.com/products/652-830-5003.html>iPhone 配件</a></li><li><a href=http://www.360buy.com/products/652-830-868.html>其它配件</a></li></ul></div><div class='item'><h3><b></b>摄影摄像</h3><ul><li><a href=http://www.360buy.com/products/652-654-831.html>数码相机</a></li><li><a href=http://www.360buy.com/products/652-654-5012.html>单电/微单相机</a></li><li><a href=http://www.360buy.com/products/652-654-832.html>单反相机</a></li><li><a href=http://www.360buy.com/products/652-654-833.html>摄像机</a></li><li><a href=http://www.360buy.com/products/652-654-7170.html>拍立得</a></li><li><a href=http://www.360buy.com/products/652-654-834.html>镜头</a></li><li><a href=http://www.360buy.com/products/652-654-835.html>滤镜</a></li><li><a href=http://www.360buy.com/products/652-654-836.html>闪光灯/手柄</a></li><li><a href=http://www.360buy.com/products/652-654-5014.html>单反配件</a></li></ul></div><div class='item'><h3><b></b>数码配件</h3><ul><li><a href=http://www.360buy.com/products/652-829-845.html>存储卡</a></li><li><a href=http://www.360buy.com/products/652-829-854.html>电池/充电器</a></li><li><a href=http://www.360buy.com/products/652-829-846.html>读卡器</a></li><li><a href=http://www.360buy.com/products/652-829-1219.html>移动电源</a></li><li><a href=http://www.360buy.com/products/652-829-847.html>数码包</a></li><li><a href=http://www.360buy.com/products/652-829-850.html>数码贴膜</a></li><li><a href=http://www.360buy.com/products/652-829-848.html>三脚架/云台</a></li><li><a href=http://www.360buy.com/products/652-829-851.html>相机清洁</a></li></ul></div><div class='item'><h3><b></b>时尚影音</h3><ul><li><a href=http://www.360buy.com/products/652-828-837.html>MP3/MP4</a></li><li><a href=http://www.360buy.com/products/652-828-843.html>MID</a></li><li><a href=http://www.360buy.com/products/652-828-842.html>耳机/耳麦</a></li><li><a href=http://www.360buy.com/products/652-828-841.html>音箱</a></li><li><a href=http://www.360buy.com/products/652-828-1261.html>高清播放器</a></li><li><a href=http://www.360buy.com/products/652-828-1203.html>电子书</a></li><li><a href=http://www.360buy.com/products/652-828-838.html>电子词典</a></li><li><a href=http://www.360buy.com/products/652-828-1274.html>MP3/MP4配件</a></li><li><a href=http://www.360buy.com/products/652-828-840.html>录音笔</a></li><li><a href=http://www.360buy.com/products/652-828-869.html>麦克风</a></li><li><a href=http://www.360buy.com/products/652-828-962.html>专业音频</a></li><li><a href=http://www.360buy.com/products/652-828-839.html>电子教育</a></li><li><a href=http://www.360buy.com/products/652-828-844.html>数码相框</a></li><li><a href=http://www.360buy.com/products/652-828-5270.html>苹果配件</a></li></ul></div>
+
+				</div>
+
+			</div><!--sortlist end-->
+
+			<script type="text/javascript">
+
+            $("#sortlist h3").bind("click",function(){
+
+	            var element=$(this).parent();
+
+	            if (element.hasClass("current")){
+
+		            element.removeClass("current");
+
+	            }else{
+
+		            element.addClass("current");
+
+	            }
+
+            })
+
+            </script>
+
+
+
+			<div class="m limitbuy hide" id="limitbuy537" clstag="thirdtype|keycount|thirdtype|limitbuy536">
+
+				<div class="mt">
+
+					<h2>消费电子限时抢购</h2>
+
+				</div>
+
+					<div class="mc">
+
+						<div class="clock" id="clock537">正在加载…</div>
+
+						<div id="limit537"></div>
+
+					</div>
+
+			</div><!--limitbuy end -->
+
+			<div id="finalbuy" class="hide m m0"></div><!--关注手机最终购买-->
+
+			<div class="m rank" clstag="thirdtype|keycount|thirdtype|mrank">
+
+				<div class="mt">
+
+					<h2>一周销量排行榜</h2>
+
+				</div>
+
+				<div class="mc">
+
+					<ul class="tabcon">
+
+                        <li class="fore"><span>1</span>
+<div class="p-img"><a href='http://www.360buy.com/product/517592.html'>
+<img src="http://img10.360buyimg.com/n5/g5/M02/00/0C/rBEIC0-7L_8IAAAAAAEf5x9g9LkAAAE1APVD10AAR__872.jpg" alt="诺基亚（NOKIA）1010 GSM 手机（灰黑色）双卡双待" width="50" height="50"/></a></div>
+<div class="p-name"><a href='http://www.360buy.com/product/517592.html'>诺基亚（NOKIA）1010 GSM 手机（灰黑色）双卡双待<font color="#ff6600" ></font></a></div>
+<div class="p-price"><strong><img onerror="this.src='http://www.360buy.com/images/no2.gif'" src="http://jprice.360buyimg.com/price//gp517592-1-1-1.png"></strong></div></li>
+<li><span>2</span><div class="p-name"><a  href='http://www.360buy.com/product/576911.html'>三星（SAMSUNG）S5830I 3G手机（玛瑙黑）WCDMA/GSM<font color="#ff6600" >下单返现200元！832MHZ处理器 3.5寸多触点电容屏，android2.3智能系统！</font></a></div></li>
+<li><span>3</span><div class="p-name"><a  href='http://www.360buy.com/product/342314.html'>诺基亚（NOKIA）C5-03 酷玩享乐版 3G手机（黑青色）WCDMA/GSM 非定制机<font color="#ff6600" >4G内存卡，高端音乐耳机！超值价尾货清仓！</font></a></div></li>
+<li><span>4</span><div class="p-name"><a  href='http://www.360buy.com/product/202926.html'>诺基亚（NOKIA）2730C 3G手机（深品红）WCDMA/GSM 非定制机<font color="#ff6600" >超高性价比!简简单单，实实在在！</font></a></div></li>
+<li><span>5</span><div class="p-name"><a  href='http://www.360buy.com/product/260279.html'>诺基亚（NOKIA）N1280 GSM手机（黑）非定制机<font color="#ff6600" >大品牌！还有比这款便宜好用的诺基亚手机么？</font></a></div></li>
+<li><span>6</span><div class="p-name"><a  href='http://www.360buy.com/product/528289.html'>诺基亚（NOKIA）1000 GSM手机（蓝色）非定制机<font color="#ff6600" >超值直板设计！</font></a></div></li>
+<li><span>7</span><div class="p-name"><a  href='http://www.360buy.com/product/198955.html'>诺基亚（NOKIA）5233 GSM手机（黑）非定制机<font color="#ff6600" ></font></a></div></li>
+<li><span>8</span><div class="p-name"><a  href='http://www.360buy.com/product/683945.html'>联想（Lenovo）A288t 3G手机（珠光粉）TD-SCDMA/GSM <font color="#ff6600" >599元购机！Android2.3，1GHz高速处理器，3.5英寸电容触摸屏！</font></a></div></li>
+
+
+					</ul>
+
+				</div>
+
+			</div><!--rank end-->
+
+			
+
+			<div id="alsobuy" class="hide m m0"></div><!--关注手机为您推荐-->
+
+			<div class="m" id="recent" clstag="thirdtype|keycount|thirdtype|recent">
+
+				<div class="mt">
+
+					<h2>最近浏览过的商品</h2>
+
+					<div class="extra"><a href="javascript:void(0)" id="clearRec">清空</a></div>
+
+				</div>
+
+				<div class="mc">
+
+					<ul>
+
+					    <li><div class="iloading">正在加载中，请稍候...</div></li>
+
+					</ul>
+
+				</div>
+
+			</div><!--recent end-->
+
+			
+
+			<div class="m" clstag="thirdtype|keycount|thirdtype|m" id="da211x261-1"></div>
+
+            
+
+            <div class="m" id="da-app" clstag="thirdtype|keycount|thirdtype|mapp">
+
+                <a target="_blank" href="http://c.fa.360buy.com/adclick?sid=2&amp;cid=25&amp;aid=761&amp;bid=0&amp;unit=3315&amp;advid=3127&amp;guv=&amp;url=http://app.360buy.com/"><img width="211" height="153" src="http://img14.360buyimg.com/da/20111121/211_153_hpWKym.jpg" app="image:poster" alt=""></a>
+
+            </div>
+
+            
+
+		</div><!--left end-->
+
+		<span class="clr"></span>
+
+		<div id="Collect_Tip" class="Tip360 w260"></div>
+
+	</div>
+
+    <div class="w">
+
+	<div id="service">
+
+		<dl class="fore1">
+
+			<dt><b></b><strong>购物指南</strong></dt>
+
+			<dd>
+
+				<div><a href="http://help.360buy.com/help/question-56.html" target="_blank">购物流程</a></div>
+
+				<div><a href="http://help.360buy.com/help/question-57.html" target="_blank">会员介绍</a></div>		
+
+				<div><a href="http://help.360buy.com/help/question-181.html" target="_blank">团购/机票/充值/点卡</a></div>
+
+				<div><a href="http://help.360buy.com/help/question-61.html" target="_blank">常见问题</a></div>
+
+				<div><a href="http://help.360buy.com/help/question-63.html" target="_blank">大家电</a></div>
+
+				<div><a href="http://help.360buy.com/help/question-62.html" target="_blank">联系客服</a></div>
+
+			</dd>
+
+		</dl>
+
+		<dl class="fore2">		
+
+			<dt><b></b><strong>配送方式</strong></dt>
+
+			<dd>
+
+				<div><a href="http://help.360buy.com/help/question-64.html" target="_blank">上门自提</a></div>
+
+				<div><a href="http://help.360buy.com/help/question-360.html" target="_blank">211限时达/次日达/晚间配送</a></div>
+
+				<div><a href="http://help.360buy.com/help/question-65.html" target="_blank">快递运输</a></div>
+
+				<div><a href="http://market.360buy.com/giftcard/index.html#one5" target="_blank">如何送礼</a></div>		
+
+				<div><a href="http://help.360buy.com/help/question-151.html" target="_blank">海外购物</a></div>
+
+			</dd>
+
+		</dl>
+
+		<dl class="fore3">
+
+			<dt><b></b><strong>支付方式</strong></dt>
+
+			<dd>
+
+				<div><a href="http://help.360buy.com/help/question-67.html" target="_blank">货到付款</a></div>		
+
+				<div><a href="http://help.360buy.com/help/question-68.html" target="_blank">在线支付</a></div>
+
+				<div><a href="http://help.360buy.com/help/question-71.html" target="_blank">分期付款</a></div>
+
+				<div><a href="http://help.360buy.com/help/question-69.html" target="_blank">邮局汇款</a></div>
+
+				<div><a href="http://help.360buy.com/help/question-70.html" target="_blank">公司转账</a></div>
+
+			</dd>
+
+		</dl>
+
+		<dl class="fore4">		
+
+			<dt><b></b><strong>售后服务</strong></dt>
+
+			<dd>
+
+				<div><a href="http://help.360buy.com/help/question-97.html" target="_blank">售后服务政策</a></div>
+
+				<div><a href="http://help.360buy.com/help/question-98.html" target="_blank">售后服务流程</a></div>
+
+				<div><a href="http://help.360buy.com/help/question-99.html" target="_blank">价格保护</a></div>
+
+				<div><a href="http://help.360buy.com/help/question-100.html" target="_blank">退款说明</a></div>		
+
+				<div><a href="http://myjd.360buy.com/repair/repairs.action" target="_blank">返修/退换货</a></div>
+
+				<div><a href="http://bankws.360buy.com/refund/processapply.aspx" target="_blank">退款申请</a></div>
+
+			</dd>
+
+		</dl>
+
+		<dl class="fore5">
+
+			<dt><b></b><strong>特色服务</strong></dt>
+
+			<dd>			
+
+				<div><a href="http://help.360buy.com/help/question-79.html" target="_blank">夺宝岛</a></div>
+
+				<div><a href="http://help.360buy.com/help/question-86.html" target="_blank">DIY装机</a></div>
+
+				<div><a href="http://market.360buy.com/hd/yanbao090702/ind.html" target="_blank">延保服务</a></div>
+
+				<div><a href="http://help.360buy.com/help/question-92.html" target="_blank">家电下乡</a></div>
+
+				<div><a href="http://market.360buy.com/giftcard/index.html" target="_blank">京东礼品卡</a></div>
+
+				<div><a href="http://help.360buy.com/help/question-91.html" target="_blank">节能补贴</a></div>			
+
+			</dd>
+
+		</dl>
+
+		<span class="clr"></span>
+
+	</div>
+
+</div><!-- service end --><div class="w">
+
+	<div id="footer">
+
+		<div class="links"><a href="http://www.360buy.com/intro/about.aspx" target="_blank">关于我们</a>|<a href="http://www.360buy.com/contact/" target="_blank">联系我们</a>|<a href="http://zhaopin.360buy.com/" target="_blank">人才招聘</a>|<a href="http://www.360buy.com/contact/joinin.aspx" target="_blank">商家入驻</a>|<a href="http://www.minitiao.com/" target="_blank">迷你挑</a>|<a href="http://www.360top.com/" target="_blank">奢侈品网</a>|<a href="http://www.360buy.com/intro/service.aspx" target="_blank">广告服务</a>|<a href="http://app.360buy.com/" target="_blank">手机京东</a>|<a href="http://club.360buy.com/links.aspx" target="_blank">友情链接</a>|<a href="http://cps.360buy.com/" target="_blank">销售联盟</a>|<a target="_blank" href="http://bbs.360buy.com/">京东论坛</a></div>
+
+		<div class="copyright">北京市公安局朝阳分局备案编号110105014669&nbsp;&nbsp;|&nbsp;&nbsp;京ICP证070359号&nbsp;&nbsp;|&nbsp;&nbsp;互联网药品信息服务资格证编号(京)-非经营性-2011-0034<br><a target="_blank" href="http://misc.360buyimg.com/skin/df/i/com/f_music.jpg">音像制品经营许可证苏宿批005号</a>&nbsp;&nbsp;|&nbsp;&nbsp;出版物经营许可证编号新出发(苏)批字第N-012号&nbsp;&nbsp;|&nbsp;&nbsp;互联网出版许可证编号新出网证(京)字150号<br>Copyright&copy;2004-2012&nbsp;&nbsp;360buy京东商城&nbsp;版权所有</div>
+
+		<div class="authentication"><a href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202007080200026" target="_blank"><img data-lazyload="http://img10.360buyimg.com/da/20110329/108_40_zZOKnl.gif" width="108" height="40" alt="经营性网站备案中心"></a><script>function change(eleId){var str= document.getElementById(eleId).href;var str1 =str.substring(0,(str.length-6));str1+=RndNum(6);document.getElementById(eleId).href=str1;}function RndNum(k){var rnd="";for (var i=0;i<k;i++){rnd+=Math.floor(Math.random()*10);}return rnd;}</script><a href="https://ss.cnnic.cn/verifyseal.dll?sn=2008070300100000031&pa=294005" tabindex="-1" id="urlknet" target="_blank"><img name="seal" border="true" data-lazyload="http://img12.360buyimg.com/da/20110329/112_40_EAWZul.jpg" width="112" height="40" oncontextmenu="return false;" onclick="change('urlknet')" alt="&#x53EF;&#x4FE1;&#x7F51;&#x7AD9;"></a><a href="http://about.58.com/fqz/index.html" target="_blank"><img data-lazyload="http://img12.360buyimg.com/da/g5/M02/0D/17/rBEIDE_nzcIIAAAAAAB30mYXo5QAACrhACj22IAAHfq378.png" width="108" height="40" alt="朝阳网络警察"></a><a href="https://search.szfw.org/cert/l/CX20120111001803001836" target="_blank"><img data-lazyload="http://img13.360buyimg.com/da/20120221/112_40_WvArIl.png" width="112" height="40"></a></div>
+
+	</div>
+
+</div><!-- footer end -->
+
+
+
+	<script type="text/javascript">(function(){var hotwords="<strong>热门搜索：</strong><a href='http://sale.360buy.com/act/xkS4QsBFAdv32c.html' target='_blank' style='color: #CC0000'>北京青年</a><a href='http://search.360buy.com/Search?keyword=尼康S5100' target='_blank'>尼康S5100</a><a href='http://search.360buy.com/Search?keyword=三星I8250'target='_blank'>三星I8250</a><a href=http://search.360buy.com/Search?keyword=%E5%8F%B0%E7%94%B5%20P85&enc=utf-8&area=1' target='_blank'>台电 P85</a><a href='http://search.360buy.com/Search?keyword=诺基亚 808' target='_blank'>诺基亚 808</a><a href='http://search.360buy.com/Search?keyword=RCA播放器' target='_blank'>RCA播放器</a><a href='http://search.360buy.com/Search?keyword=中兴 U970' target='_blank'>中兴 U970</a><a href='http://search.360buy.com/Search?keyword=三星I569' target='_blank'>三星I569</a><a href='http://search.360buy.com/Search?keyword=i5508' target='_blank'>i5508</a><a href='http://search.360buy.com/Search?keyword=C6' target='_blank'>C6</a>";
+
+	var keywords="One xc";
+
+	$("#hotwords").html(hotwords);
+
+	$("#key").val(keywords).bind("focus",function(){
+
+		if (this.value==keywords){this.value="";this.style.color="#333"}
+
+	}).bind("blur",function(){
+
+		if (this.value==""){this.value=keywords;this.style.color="#999"}
+
+	});
+
+})();
+
+</script>
+
+	<script type="text/javascript" src="http://misc.360buyimg.com/lib/js/2012/lib-v1.js?t=20120809"></script>
+
+	<script type="text/javascript">$("#store-selector").Jdropdown();</script>
+
+    <script type="text/javascript">$.jdCalcul([537]);</script>
+
+    <script type="text/javascript">pageConfig.FN_InitContrast();</script>	
+
+	<script type="text/javascript" src="http://misc.360buyimg.com/201007/js/p.plist20110721.js?t=20120726"></script>
+
+    <script type="text/javascript" src="http://simigoods.360buy.com/js/BiForWeb.js"></script>   
+
+    <script type="text/javascript">
+
+    if(document.referrer && document.referrer.indexOf(".360buy.com")<0) { ListRecP(655); }
+
+	function feed_publish_collect(type,wid){jQuery.getJSON("http://i.360buy.com/feed/send.action?type="+type+"&commodityId="+wid+"&jsoncallback=?",function(json){})}
+
+	if($("#hotsale").length>0){log('thirdtype', 'showhotsale_M');}
+
+	</script>
+
+    <script type="text/javascript">
+
+    var sidePanle=new pageConfig.FN_InitSidebar();
+
+    sidePanle.addItem("<a class='research' target='_blank' href='http://club.360buy.com/jdvote/vote2.aspx?voteId=123&ruleId=655'><b></b>调查问卷</a>")
+
+    sidePanle.setTop();
+
+    sidePanle.scroll();
+
+    </script>
+
+	<script type="text/javascript" src="http://simigoods.360buy.com/js/ThridRec.js"></script>
+
+    <script type="text/javascript" src="http://fa.360buy.com/loadFa.js?aid=2_145_766"></script><script type="text/javascript" src="http://wl.360buy.com/wl.js"></script>
+
+<script type="text/javascript">
+
+var _gaq = _gaq || [];
+
+_gaq.push(['_setAccount', 'UA-2176661-1']);
+
+_gaq.push(['_setDomainName', '360buy.com']);
+
+_gaq.push(['_addOrganic', 'soso', 'w']);
+
+_gaq.push(['_addOrganic', 'sogou', 'query']);
+
+_gaq.push(['_addOrganic', 'youdao', 'q']);
+
+_gaq.push(['_addOrganic', 'baidu', 'word']);
+
+_gaq.push(['_addOrganic', 'baidu', 'q1']);
+
+_gaq.push(['_addOrganic', 'ucweb', 'keyword']);
+
+_gaq.push(['_addOrganic', 'ucweb', 'word']);
+
+_gaq.push(['_addOrganic', '114so', 'kw']);
+
+_gaq.push(['_trackPageview']);
+
+_gaq.push(['_trackPageLoadTime']);
+
+(function() {
+
+	var ga = document.createElement('script');
+
+	ga.type = 'text/javascript';
+
+	ga.async = true;
+
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+	var s = document.getElementsByTagName('script')[0];
+
+	s.parentNode.insertBefore(ga, s);
+
+})();
+
+</script>
+
+	<script type="text/javascript">
+
+    /* <![CDATA[ */
+
+    var google_conversion_id = 1066677870;
+
+    var google_conversion_language = "en";
+
+    var google_conversion_format = "3";
+
+    var google_conversion_color = "666666";
+
+    var google_conversion_label = "vamoCJ72zwEQ7uzQ_AM";
+
+    var google_conversion_value = 0;
+
+    /* ]]> */
+
+    </script>
+
+    <script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js"></script>
+
+    <noscript>
+
+    <div style="display:inline;">
+
+    <img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/1066677870/?label=vamoCJ72zwEQ7uzQ_AM&amp;guid=ON&amp;script=0"/>
+
+    </div>
+
+    </noscript>
+
+    
+
+</body>
+
+</html>
+
+
+

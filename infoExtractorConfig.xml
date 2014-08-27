@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<infoExtractorConfig>
+	<!---存放程序处理过程中产生的临时文件-->
+    <tempDirectory>D://temp1//</tempDirectory>
+    <!--此值不要轻易改动-->
+    <passedSimilarityValue>0.8</passedSimilarityValue>
+    <!-- save the media such as the picture and move-->
+    <mediaDirectory>D://media1//</mediaDirectory>
+    <!-- 用于保存用户感兴趣的文件比如：采集到的信息实体等此路径所在的磁盘最好空余磁盘空间较大,注意目录必须以//结尾-->
+    
+    <fileSavedDirectory>F://fileSavedDr11//</fileSavedDirectory>
+    <subjectSimilarityWeight>
+    	<charNumberPercentage>250</charNumberPercentage>
+    	<subCustomerHtmlNodes>25</subCustomerHtmlNodes>
+    	<charNumber>400</charNumber>
+    	
+    </subjectSimilarityWeight>
+    <!--这个值直接决定系统在采集UR和处理URL的时候开的进程数量，比如：如果采集到200条url，按urlBlockSize:1oo的话，系统会开启两个进程如果urBlockSize的值为50的话就会开启4个进程-->
+    <urlBlockSize>100</urlBlockSize>
+    <!--对网页进行消除噪声处理功能是否开启，true表示开启，将对采集到的网页信息进行处理，false表示不开启将仅仅采集相关网页信息需要你自己提供进一步的处理-->
+    <isExtractorContent>true</isExtractorContent>
+    <passedScore>1000</passedScore>
+	<taskConfigFileDir>F://tasks//</taskConfigFileDir>
+</infoExtractorConfig>

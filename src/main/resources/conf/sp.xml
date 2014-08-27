@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<taskConfig>
+<!-- 
+tb-detail-hd[\s\S\r\n]{0,}?(<h3[\s\S>\r\n]{0,}?</h3)   spName 
+&lt;h2&gt;([\s\S\r\n]{0,}?)&lt;/h2&gt;
+促销[\s\S\r\n]{0,}?<strong>([\s\S\r\n]{0,}?)</strong>  price
+J_StrPrice[\s\S\r\n]{0,}?class=["]{0,}del[\s\S\r\n]{0,}?>(.*?)</    oprice
+   discount
+
+月销量[\s\S\r\n]{0,}?<em[\s\S\r\n]{0,}?>(.*?)</em>  orderedNumber
+
+
+ endDate
+J_ImgBooth[\s\S\r\n]{0,}?src="(.*?)"    pictureUrl
+
+
+
+
+tb-detail-hd[\s\S\r\n]{0,}?(&lt;h3[\s\S&gt;\r\n]{0,}?&lt;/h3)   spName 
+&amp;lt;h2&amp;gt;([\s\S\r\n]{0,}?)&amp;lt;/h2&amp;gt;
+促销[\s\S\r\n]{0,}?&lt;strong&gt;([\s\S\r\n]{0,}?)&lt;/strong&gt;  price
+J_StrPrice[\s\S\r\n]{0,}?class=["]{0,}del[\s\S\r\n]{0,}?&gt;(.*?)&lt;/    oprice
+   discount
+
+月销量[\s\S\r\n]{0,}?&lt;em[\s\S\r\n]{0,}?&gt;(.*?)&lt;/em&gt;  orderedNumber
+
+
+ endDate
+J_ImgBooth[\s\S\r\n]{0,}?src="(.*?)"    pictureUrl
+
+
+
+
+ -->
+    <tasks>
+        <task>
+            <id></id>
+            <entityFullName>com.yufei.infoExtractor.pfw.entity.Sp</entityFullName>
+            <seedsites>
+			
+
+			
+			
+		
+              <seedsite>
+                 <domain>www.dianping.com</domain>
+                    <ipadress></ipadress>
+                    <isFetched>0</isFetched>
+              <urlExtractorConfig>
+			  <depth>2</depth>
+                 
+					<usefullLinks>
+					<usefullLink>
+					<linkType>linkTypeSource</linkType>
+					<linkUrl>http://list.tmall.com/search_product.htm?start_price=0&amp;end_price=9&amp;post_fee=-1&amp;miaosha=1&amp;zk_type=0&amp;search_condition=20&amp;cat=50024406&amp;sort=d&amp;style=g&amp;vmarket=0&amp;active=1&amp;q=</linkUrl>
+					</usefullLink>
+	                <usefullLink>
+					<linkType>linkTypeTarget</linkType>
+					<linkUrl>http://detail.tmall.com/item.htm?spm=a220m.1000858.1000725.13.w8f7nv&amp;id=18673259296&amp;is_b=1&amp;cat_id=50024406&amp;q=&amp;rn=34014d022f05d383bd55d4cc96174c55</linkUrl>
+					</usefullLink>
+	                </usefullLinks>	
+	                <passedSimilarityValue>0.8</passedSimilarityValue>
+	                
+                
+
+                    <!-- 从外部文件导入待抓取链接 -->
+                    
+				   <externalLinkGetterClassName>com.yufei.infoExtractor.core.ExternalMongodbLinksGetter</externalLinkGetterClassName>
+                
+
+                      <paginationRule></paginationRule>
+			</urlExtractorConfig>
+            <urlParserConfig>
+            
+              <pattern>
+                        <propertyMatches>
+                            <propertyMatch>
+<property>linkFilterRegex</property>
+<match>
+<!-- productImg-wrap[\s\S\r\n]{0,}?<a[\s\S\r\n]{0,}?href="(.*?)" -->
+<entry key="regex">productImg-wrap[\s\S\r\n]{0,}?&lt;a[\s\S\r\n]{0,}?href="(.*?)"</entry>
+</match>
+<matchType>commonMatchType</matchType>
+                            </propertyMatch>
+                            <propertyMatch>
+<property>spName</property>
+
+<match>
+<entry key="regex">tb-detail-hd[\s\S\r\n]{0,}?(&lt;h3[\s\S&gt;\r\n]{0,}?&lt;/h3)</entry>
+
+</match>
+<matchType>commonMatchType</matchType>
+
+
+                            </propertyMatch>
+                           
+
+							
+							
+							   
+
+			
+			
+							
+                            <propertyMatch>
+<property>orderedNumber</property>
+<match>
+
+<entry key="regex">月销量[\s\S\r\n]{0,}?&lt;em[\s\S\r\n]{0,}?&gt;(.*?)&lt;/em&gt;</entry>
+
+</match>
+<matchType>commonMatchType</matchType>
+
+                            </propertyMatch>
+                           
+
+                            <propertyMatch>
+<property>price</property>
+<match>
+<entry key="regex">促销[\s\S\r\n]{0,}?&lt;strong&gt;([\s\S\r\n]{0,}?)&lt;/strong&gt;</entry>
+
+</match>
+<matchType>commonMatchType</matchType>
+
+                            </propertyMatch>
+							
+
+<propertyMatch>
+<property>oprice</property>
+<match>
+<entry key="regex">J_StrPrice[\s\S\r\n]{0,}?class=["]{0,}del[\s\S\r\n]{0,}?&gt;(.*?)&lt;/</entry>
+
+</match>
+<matchType>commonMatchType</matchType>
+
+                            </propertyMatch>
+							
+                           <!--  <propertyMatch>
+<property>discount</property>
+<match>
+<entry key="regex">class=["]{0,}discount["]{0,}&gt;(.*?)折&lt;/span&gt;</entry>
+
+</match>
+<matchType>commonMatchType</matchType>
+
+                            </propertyMatch> -->
+                            <propertyMatch>
+<property>pictureUrl</property>
+<match>
+<entry key="regex">J_ImgBooth[\s\S\r\n]{0,}?src="(.*?)"</entry>
+
+</match>
+
+<matchType>commonMatchType</matchType>
+                            </propertyMatch>
+							                          
+
+
+							
+                        </propertyMatches>
+                        <taskName>sp</taskName>
+                    </pattern>
+            
+            </urlParserConfig>
+                    
+					<dataRetrieverFeatures>
+					 <proxyServerIdentity></proxyServerIdentity>
+                    <requestExecuteJs>true</requestExecuteJs>
+					<requestTimeout>10000</requestTimeout>
+					<isCookiesSupport>false</isCookiesSupport>
+					<connectionTimeout>10000</connectionTimeout>
+					<connectIntervalTime>0</connectIntervalTime>
+					<requestType>get</requestType>
+					              <retryCount>2</retryCount>
+					
+					</dataRetrieverFeatures>
+                   
+                    <siteDesc></siteDesc>
+                    <siteName></siteName>
+                    <status>0</status>
+                    <taskName>sp</taskName>
+                </seedsite>
+				<!--****************************************************************************************-->
+				
+
+
+            </seedsites>
+            <status>0</status>
+            <taskExecuteJobFullName>com.yufei.infoExtractor.task.InfoExtractorCommonTask</taskExecuteJobFullName>
+            <taskName>sp</taskName>
+			<actionConfigs>
+			 <actionConfig>
+		         <infoActionClassFullClassName>com.yufei.infoExtractor.action.InfoPreAction</infoActionClassFullClassName>
+				 <infoActionType>PRE</infoActionType>
+		         </actionConfig>      		
+			  <actionConfig>
+		         <infoActionClassFullClassName>com.yufei.infoExtractor.action.PreTaskCheckAction</infoActionClassFullClassName>
+				 <infoActionType>PRE</infoActionType>
+		         </actionConfig>   			
+                 <actionConfig>
+		         <infoActionClassFullClassName>com.yufei.infoExtractor.extractor.UrlExtractor</infoActionClassFullClassName>
+				 <infoActionType>EXTRACTORURL</infoActionType>
+		         </actionConfig>            
+				 <actionConfig>
+		         <infoActionClassFullClassName>com.yufei.infoExtractor.extractor.ContentExtractor</infoActionClassFullClassName>
+				 <infoActionType>EXTRACTORCONTENT</infoActionType>
+		         </actionConfig>      
+                 <actionConfig>
+		         <infoActionClassFullClassName>com.yufei.infoExtractor.action.DataExportToExcelAction</infoActionClassFullClassName>
+				 <infoActionType>EXPORT</infoActionType>
+		         </actionConfig>      				 
+		    <actionConfig>
+		         <infoActionClassFullClassName>com.yufei.infoExtractor.action.InfoPostAction</infoActionClassFullClassName>
+				 <infoActionType>POST</infoActionType>
+		         </actionConfig>     		
+		 
+		 
+		    </actionConfigs>
+        </task>
+    </tasks>
+</taskConfig>
