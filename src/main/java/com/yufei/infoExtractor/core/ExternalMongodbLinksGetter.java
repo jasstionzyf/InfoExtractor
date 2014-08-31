@@ -1,5 +1,7 @@
 package com.yufei.infoExtractor.core;
 
+import com.yufei.dataget.entity.PaginationRule;
+import com.yufei.dataget.entity.UrlParameter;
 import com.yufei.dataget.utils.HtmlUtil;
 import java.util.ArrayList;
 import java.util.List;
@@ -13,8 +15,7 @@ import org.jsoup.select.Elements;
 
 
 import com.yufei.infoExtractor.entity.ExternalLink;
-import com.yufei.pfw.entity.PaginationRule;
-import com.yufei.pfw.entity.UrlParameter;
+import com.yufei.infoExtractor.util.AppUtil;
 import com.yufei.pfw.service.MongodbPfwService;
 import com.yufei.pfw.service.PfwService;
 import com.yufei.utils.CommonUtil;
@@ -75,7 +76,7 @@ PfwService pfwService=(PfwService) AppUtil.getBeanFromBeanContainer(MongodbPfwSe
 			    urlParameter.setParameterType("Integer");
 			    urlParameter.setParameterValue(String.valueOf(3));
 			    paginationRule.getUrlParameters().add(urlParameter);
-				List<String> urls=CommonUtil.generateUrlsByPaginationRule(paginationRule); 
+				List<String> urls=HtmlUtil.generateUrlsByPaginationRule(paginationRule); 
 				readyUrls.addAll(urls);
 			}
 			else{

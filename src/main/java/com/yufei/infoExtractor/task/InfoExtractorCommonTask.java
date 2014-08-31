@@ -11,16 +11,18 @@ import java.util.Set;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import com.yufei.entity.Relatedlink;
+
 import com.yufei.infoExtractor.action.InfoActionConfigHelper;
 import com.yufei.infoExtractor.context.HActionContext;
 import com.yufei.infoExtractor.entity.InfoExtractTaskStatistics;
 import com.yufei.infoExtractor.entity.Pattern;
+import com.yufei.infoExtractor.entity.Relatedlink;
 import com.yufei.infoExtractor.entity.Seedsite;
 import com.yufei.infoExtractor.entity.Task;
 import com.yufei.infoExtractor.entity.TaskFingerprint;
 import com.yufei.infoExtractor.listener.InfoExtractorCommonTaskListener;
 import com.yufei.infoExtractor.listener.InfoExtractorEvent;
+import com.yufei.infoExtractor.pfw.InfoExtractorDaoFactory;
 import com.yufei.utils.ExceptionUtil;
 
 /**
@@ -160,7 +162,7 @@ public class InfoExtractorCommonTask  extends  it.sauronsoftware.cron4j.Task{
 				arg0.pauseIfRequested();
 
 				seedsite=context.getSeedsite();
-				infoExtractorDao.updateSdStatus(Seedsite.IS_CRAWLERING, seedsite.getId());
+				InfoExtractorDaoFactory.getInfoExtractorDao().updateSdStatus(Seedsite.IS_CRAWLERING, seedsite.getId());
 				
 				
 					Set[] linkSet = context.getLinkSets();
@@ -174,14 +176,14 @@ public class InfoExtractorCommonTask  extends  it.sauronsoftware.cron4j.Task{
 			 InfoActionConfigHelper.getTaskInfoExtractionActions(context.getTask()));
 			       
 				
-			    	TaskFingerprint taskFingerprint=infoExtractorDao.getTaskFingerprintByTaskName(task.getTaskName());
+			    	TaskFingerprint taskFingerprint=InfoExtractorDaoFactory.getInfoExtractorDao().getTaskFingerprintByTaskName(task.getTaskName());
                     if(taskFingerprint==null){
-                    	infoExtractorDao.saveTaskFingerprint(new TaskFingerprint(context.getTask().getTaskName(), context.getLinkFingerPrints()));
+                    	InfoExtractorDaoFactory.getInfoExtractorDao().saveTaskFingerprint(new TaskFingerprint(context.getTask().getTaskName(), context.getLinkFingerPrints()));
                     }
                     //更新
                     else{
                     taskFingerprint.setFingerprints(context.getLinkFingerPrints());
-                    infoExtractorDao.saveTaskFingerprint(taskFingerprint);
+                    InfoExtractorDaoFactory.getInfoExtractorDao().saveTaskFingerprint(taskFingerprint);
                     }
 						
 					

@@ -6,8 +6,8 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
 import com.yufei.infoExtractor.context.HActionContext;
-import com.yufei.infoExtractor.pfw.entity.Seedsite;
-import com.yufei.infoExtractor.pfw.entity.UsefullLink;
+import com.yufei.infoExtractor.entity.Seedsite;
+import com.yufei.infoExtractor.entity.UsefullLink;
 import com.yufei.infoExtractor.util.AppUtil;
 import com.yufei.utils.CommonUtil;
 
@@ -32,8 +32,8 @@ public class DecideByUrlSimilarity implements DecisionMaker {
 		double similartity = 0.00;
 		double passedSimilartity = 0.00;
 		Seedsite seedsite = context.getSeedsite();
-		passedSimilartity = seedsite.getPassedSimilarityValue();
-		List<UsefullLink> usefullLinks= seedsite.getUsefullLinks();
+		passedSimilartity = 0.0;//seedsite.getUrlParserConfig().getPassedSimilarityValue();
+		List<UsefullLink> usefullLinks=null;// seedsite.getUrlExtractorConfig().getUsefullLinks();
 		if(CommonUtil.isEmptyOrNull(usefullLinks)){
 			//如果为空的话表示所有链接都去采集和分析
 			return true;

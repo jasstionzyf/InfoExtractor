@@ -1,6 +1,6 @@
 package com.yufei.infoExtractor.core;
 
-import static org.junit.Assert.*;
+import com.yufei.infoExtractor.entity.Task;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +11,6 @@ import org.junit.Before;
 import org.junit.Test;
 
 import com.yufei.infoExtractor.pfw.InfoExtractorDao;
-import com.yufei.infoExtractor.pfw.entity.Task;
 import com.yufei.infoExtractor.util.AppUtil;
 
 public class TaskRunnerTest {
@@ -33,7 +32,7 @@ InfoExtractorDao infoExtractorDao=null;
 		TaskRunner taskRunner=TaskRunner.getTaskRunnerInstance();
 
 		taskBuilder.createTask(AppUtil.getInfoExtractorConfig().getTaskConfigFileDir());
-		Task task=infoExtractorDao.getDataRepositoryI().queryEntity("taskName", "MeiShi", Task.class);
+		Task task=infoExtractorDao.queryEntity("taskName", "MeiShi", Task.class);
 		Assert.assertNotNull(task);
 		Assert.assertEquals("http://www.dianping.com/", task.getSeedsites().get(0).getSiteName());
 		List<Task> tasks=new ArrayList<Task>();

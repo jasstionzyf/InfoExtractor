@@ -18,7 +18,9 @@ import org.apache.commons.logging.LogFactory;
 
 import com.yufei.infoExtractor.listener.AbstractSchedulerListener;
 import com.yufei.infoExtractor.listener.AbstractTaskExecutorListener;
+import com.yufei.infoExtractor.pfw.InfoExtractorDao;
 import com.yufei.infoExtractor.task.InfoExtractorCommonTask;
+import com.yufei.infoExtractor.util.AppUtil;
 import com.yufei.utils.CommonUtil;
 import com.yufei.utils.ExceptionUtil;
 /**
@@ -364,7 +366,7 @@ ScheduledExecutorService scheduledExecutorService=Executors.newScheduledThreadPo
 
 
 	//定期想spider-server 获取价格更行任务
-	scheduledExecutorService.scheduleAtFixedRate(new TMallSpProductCollectThread(), 1,60*60*6, TimeUnit.SECONDS);
+	//scheduledExecutorService.scheduleAtFixedRate(new TMallSpProductCollectThread(), 1,60*60*6, TimeUnit.SECONDS);
 	
 	
 }
@@ -376,7 +378,7 @@ ScheduledExecutorService scheduledExecutorService=Executors.newScheduledThreadPo
 		InfoExtractorDao infoExtractorDao=(InfoExtractorDao) AppUtil.getBeanFromBeanContainer(InfoExtractorDao.class);
 		Task task=null;
 		for(String taskName:taskNames){
-			task=infoExtractorDao.getDataRepositoryI().queryEntity("taskName", taskName, Task.class);
+			task=infoExtractorDao.queryEntity("taskName", taskName, Task.class);
 			task.setStatus(Task.IS_FAILED);
 			mLog.info("名为:"+taskName+"的任务状态被重置！");
 			infoExtractorDao.saveEntity(task);

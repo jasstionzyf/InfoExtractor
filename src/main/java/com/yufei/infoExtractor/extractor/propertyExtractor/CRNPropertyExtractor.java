@@ -1,19 +1,19 @@
 package com.yufei.infoExtractor.extractor.propertyExtractor;
 
+import com.yufei.dataget.utils.HtmlUtil;
 import java.util.List;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import com.yufei.entity.Relatedlink;
 import com.yufei.infoExtractor.context.HActionContext;
 import com.yufei.infoExtractor.entity.PropertyMatch;
+import com.yufei.infoExtractor.entity.Relatedlink;
 import com.yufei.infoExtractor.extractor.ExtractorAction;
 import com.yufei.infoExtractor.extractor.PropertyExtractor;
 import com.yufei.infoExtractor.util.AppUtil;
 import com.yufei.infoExtractor.util.CustomerHtmlNode;
 import com.yufei.utils.CommonUtil;
-import com.yufei.utils.HtmlUtil;
 
 /**
  * created by @author jasstion at 2012-10-29

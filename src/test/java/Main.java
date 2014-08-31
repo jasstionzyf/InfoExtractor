@@ -1,31 +1,9 @@
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.lang.reflect.InvocationTargetException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-
-import org.apache.commons.beanutils.PropertyUtils;
-import org.apache.commons.collections.map.HashedMap;
-import org.apache.xalan.xsltc.compiler.sym;
-
+import com.yufei.annotation.QueryEnable;
 import com.yufei.infoExtractor.LoggerCommon;
-import com.yufei.infoExtractor.action.InfoActionConfigHelper;
-import com.yufei.infoExtractor.action.InfoActionType;
-import com.yufei.infoExtractor.annotation.CollectionElementType;
-import com.yufei.infoExtractor.annotation.QueryEnable;
-import com.yufei.infoExtractor.core.InfoActionConfig;
-import com.yufei.infoExtractor.core.InfoExtractorConfig;
-import com.yufei.infoExtractor.core.TaskConfig;
-import com.yufei.infoExtractor.pfw.InfoExtractorDao;
-import com.yufei.infoExtractor.pfw.InfoExtractorDaoFactory;
-import com.yufei.infoExtractor.pfw.entity.Hotel;
-import com.yufei.infoExtractor.pfw.entity.Task;
-import com.yufei.infoExtractor.pfw.entity.TaskFingerprint;
-import com.yufei.infoExtractor.util.AppUtil;
-import com.yufei.infoExtractor.util.CommonUtil;
-import com.yufei.infoExtractor.util.FileUtil;
+import com.yufei.infoExtractor.entity.Hotel;
+import com.yufei.utils.CommonUtil;
+import java.io.IOException;
+
 
 /*
  * cron4j - A pure Java cron-like scheduler
@@ -297,8 +275,8 @@ System.out.print(weibos.size());
 
 		System.out.println(queryEnable.enable());
 		System.out.println(queryEnable1!=null);
-		System.out.println(CommonUtil.fieldIsQueryEnable( CommonUtil.getFieldByFieldName(Hotel.class, "hotelName")));
-		System.out.println(CommonUtil.fieldIsQueryEnable( CommonUtil.getFieldByFieldName(Hotel.class, "city")));
+		//System.out.println(CommonUtil.fieldIsQueryEnable( CommonUtil.getFieldByFieldName(Hotel.class, "hotelName")));
+		//System.out.println(CommonUtil.fieldIsQueryEnable( CommonUtil.getFieldByFieldName(Hotel.class, "city")));
 
 	
 	}

@@ -7,9 +7,9 @@ import org.apache.commons.logging.LogFactory;
 
 import com.yufei.infoExtractor.context.HActionContext;
 import com.yufei.infoExtractor.core.InfoExtractionAction;
+import com.yufei.infoExtractor.entity.Task;
 import com.yufei.infoExtractor.pfw.InfoExtractorDao;
 import com.yufei.infoExtractor.pfw.InfoExtractorDaoFactory;
-import com.yufei.infoExtractor.pfw.entity.Task;
 import com.yufei.utils.DateUtil;
 
 /**
@@ -28,11 +28,11 @@ public class InfoPostAction implements InfoExtractionAction <HActionContext>{
 	    Date endDate = new Date();
 
 		InfoExtractorDao infoExtractorDao=InfoExtractorDaoFactory.getInfoExtractorDao();
-		infoExtractorDao.setTaskEndTime(endDate,task.getId());
+		infoExtractorDao.setTaskEndTime(endDate, (Long) task.getId());
 	    task.setEndTime(endDate);
 	    String message="任务："+task.getTaskName()+"执行结束,时间为："+DateUtil.getDate(endDate, DateUtil.DATE_TIME)+"";
 	    mLog.info(message);
-	    infoExtractorDao.updateTaskStatus(Task.IS_RUNED, task.getId());
+	    infoExtractorDao.updateTaskStatus(Task.IS_RUNED, (Long) task.getId());
 
 	}
 

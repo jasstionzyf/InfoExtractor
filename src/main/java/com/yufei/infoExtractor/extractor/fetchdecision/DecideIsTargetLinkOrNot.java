@@ -6,8 +6,8 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
 import com.yufei.infoExtractor.context.HActionContext;
-import com.yufei.infoExtractor.pfw.entity.Seedsite;
-import com.yufei.infoExtractor.pfw.entity.UsefullLink;
+import com.yufei.infoExtractor.entity.Seedsite;
+import com.yufei.infoExtractor.entity.UsefullLink;
 import com.yufei.infoExtractor.util.AppUtil;
 import com.yufei.utils.CommonUtil;
 
@@ -31,8 +31,8 @@ public class DecideIsTargetLinkOrNot implements DecisionMaker {
 		double similartity = 0.00;
 		double passedSimilartity = 0.00;
 		Seedsite seedsite = context.getSeedsite();
-		passedSimilartity = seedsite.getPassedSimilarityValue();
-		List<UsefullLink> usefullLinks= seedsite.getUsefullLinks();
+		passedSimilartity =0.0;// seedsite.getPassedSimilarityValue();
+		List<UsefullLink> usefullLinks=null;//seedsite.getUsefullLinks();
 
 
 		if(CommonUtil.isEmptyOrNull(usefullLinks)){

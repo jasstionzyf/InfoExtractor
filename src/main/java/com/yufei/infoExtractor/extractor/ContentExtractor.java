@@ -18,6 +18,7 @@ import com.yufei.infoExtractor.listener.InfoExtractorEvent;
 import com.yufei.infoExtractor.listener.InfoExtractorListener;
 import com.yufei.infoExtractor.parallel.ParallelThreadExecutor;
 import com.yufei.infoExtractor.parallel.executor.UrlFetchParallelThreadExecutor;
+import com.yufei.infoExtractor.util.AppUtil;
 import com.yufei.utils.CommonUtil;
 
 /**

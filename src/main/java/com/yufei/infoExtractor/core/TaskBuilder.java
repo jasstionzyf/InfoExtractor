@@ -1,5 +1,6 @@
 package com.yufei.infoExtractor.core;
 
+import com.yufei.dataget.entity.UrlParameter;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -14,7 +15,9 @@ import org.apache.commons.logging.LogFactory;
 import com.yufei.infoExtractor.core.impl.InfoExtractorM;
 import com.yufei.infoExtractor.entity.Task;
 import com.yufei.infoExtractor.exception.TaskCreateFailedEx;
-import com.yufei.pfw.entity.UrlParameter;
+import com.yufei.infoExtractor.pfw.InfoExtractorDao;
+import com.yufei.infoExtractor.pfw.InfoExtractorDaoFactory;
+import com.yufei.infoExtractor.util.AppUtil;
 import com.yufei.pfw.service.PfwService;
 import com.yufei.utils.CommonUtil;
 
@@ -25,7 +28,8 @@ import com.yufei.utils.CommonUtil;
  */
 public class TaskBuilder {
 	private static Log mLog = LogFactory.getLog(InfoExtractorM.class);
-	
+	InfoExtractorDao infoExtractorDao = InfoExtractorDaoFactory
+				.getInfoExtractorDao();
 	private PfwService  pfwService=(PfwService) AppUtil.getBeanFromBeanContainer(PfwService.class);
 
 
@@ -47,7 +51,7 @@ public Task createTask(String taskName,List<String> keyWords) throws TaskCreateF
 		mLog.error(message);
 		throw new TaskCreateFailedEx(message);
 	}
-	   List<UrlParameter> urlParameters= task.getSeedsites().get(0).getPaginationRule().getUrlParameters();
+	   List<UrlParameter> urlParameters= task.getSeedsites().get(0).getUrlExtractorConfig().getPaginationRule().getUrlParameters();
 		for(UrlParameter urlParameter:urlParameters){
 			if(urlParameter.getParameterIndex()==1){
 				urlParameter.setParameterValue(CommonUtil.LinkStringWithSpecialSymbol(keyWords, AppUtil.stringSplitSymbol));
@@ -96,16 +100,13 @@ public List<Task> createTask(String taskFilesPath){
 			createdTask.setId(null);
 			//如果存在则进行更行
 			String taskName=createdTask.getTaskName();
-			Task task=infoExtractorDao.getDataRepositoryI().queryEntity("taskName", taskName, Task.class);
+			Task task=infoExtractorDao.queryEntity("taskName", taskName, Task.class);
 			if(task!=null){
-				
-					createdTask.setId(task.getId());
+				createdTask.setId(task.getId());
 					//设置状态
 				   //防止重新提交的任务覆盖正在运行的对应任务
 					//createdTask.setStatus(task.getStatus());
-	
-				
-			}
+                        }
 			createdTask=(Task) infoExtractorDao.saveEntityWithReturnValue(createdTask);
 			savedTasks.add(createdTask);
 		} catch (FileNotFoundException e) {

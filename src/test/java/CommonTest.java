@@ -1,15 +1,8 @@
 import java.io.IOException;
 
-import java.util.Date;
 import java.util.List;
 
-import static org.springframework.data.mongodb.core.query.Criteria.where;
-import static org.springframework.data.mongodb.core.query.Query.query;
-
-import com.mongodb.BasicDBObject;
 import com.yufei.infoExtractor.pfw.InfoExtractorDao;
-import com.yufei.infoExtractor.pfw.entity.News;
-import com.yufei.infoExtractor.pfw.entity.Task;
 import com.yufei.infoExtractor.util.AppUtil;
 
 public class CommonTest {

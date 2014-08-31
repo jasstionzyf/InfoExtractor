@@ -44,7 +44,7 @@ public static DecisionMaker getDecisionMakerByType(String type){
 
 public static IsRepetive createRepetiveJudge(){
 	IsRepetive isRepetive=null;
-	isRepetive=new IsRepetiveBatSet();
+	isRepetive=IsRepetiveBatSet.getInstance();
 	return isRepetive;
 	
 }

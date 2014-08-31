@@ -1,5 +1,6 @@
 package com.yufei.infoExtractor.parallel.thread;
 
+import com.yufei.dataget.utils.HtmlUtil;
 import it.sauronsoftware.cron4j.Task;
 import it.sauronsoftware.cron4j.TaskExecutionContext;
 
@@ -12,12 +13,12 @@ import java.util.concurrent.CountDownLatch;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import com.yufei.entity.Relatedlink;
 import com.yufei.infoExtractor.context.HActionContext;
+import com.yufei.infoExtractor.entity.PropertyMatch;
+import com.yufei.infoExtractor.entity.Relatedlink;
 import com.yufei.infoExtractor.extractor.PropertyExtractor;
 import com.yufei.infoExtractor.extractor.propertyExtractor.PropertyExtractorFactory;
 import com.yufei.infoExtractor.pfw.InfoExtractorDao;
-import com.yufei.infoExtractor.pfw.entity.PropertyMatch;
 import com.yufei.infoExtractor.util.AppUtil;
 import com.yufei.utils.CommonUtil;
 import com.yufei.utils.EncryptUtil;
@@ -93,7 +94,7 @@ public class UrlFetchThread  extends Task {
 						.get("urlCache");
 				currentHtmlContent = urlCache.get(urlMd5);*/
 				//直接从数据库中读取
-				currentLink=(Relatedlink)infoExtractorDao.getDataRepositoryI().queryEntity("hashCode", urlMd5, entityClass);
+				currentLink=(Relatedlink)infoExtractorDao.queryEntity("hashCode", urlMd5, entityClass);
 			   // Thread.currentThread().sleep(1000*10);
 				if(currentLink==null){
 					continue;
@@ -107,7 +108,7 @@ public class UrlFetchThread  extends Task {
 			
           if(CommonUtil.isEmptyOrNull(currentHtmlContent)){
         	  //一次访问失败多次重试
-        	  currentHtmlContent=getHtmlContent(currentLink.getLink(),context.getSeedsite().getRetryCount()+1);//getHtmlContent(currentLink.getLink());
+        	  currentHtmlContent=getHtmlContent(currentLink.getLink(),1);//getHtmlContent(currentLink.getLink());
               currentLink.setOriginalHtmlContent(currentHtmlContent);
           }
           if(CommonUtil.isEmptyOrNull(currentHtmlContent)){
@@ -149,7 +150,7 @@ public class UrlFetchThread  extends Task {
 		}
 		else{
 			try {
-				htmlContent = CommonUtil.getHtmlContent(context.getSeedsite().getDataRetrieverFeatures().getProxy(), context.getSeedsite().getDataRetrieverFeatures().getRequestExecuteJs(), url);
+				htmlContent = HtmlUtil.getHtmlContent(context.getSeedsite().getDataRetrieverFeatures().getProxy(), context.getSeedsite().getDataRetrieverFeatures().getRequestExecuteJs(), url);
 			   
 				
 			} catch (IOException e) {
@@ -170,7 +171,7 @@ public class UrlFetchThread  extends Task {
 	private String getHtmlContent(String url){
 		String htmlContent=null;
 		try {
-			htmlContent = CommonUtil.getHtmlContent(context.getSeedsite().getDataRetrieverFeatures().getProxy(), context.getSeedsite().getDataRetrieverFeatures().getRequestExecuteJs(), url);
+			htmlContent = HtmlUtil.getHtmlContent(context.getSeedsite().getDataRetrieverFeatures().getProxy(), context.getSeedsite().getDataRetrieverFeatures().getRequestExecuteJs(), url);
 		   
 
 		} catch (IOException e) {
@@ -192,7 +193,7 @@ public class UrlFetchThread  extends Task {
 	 */
 	public boolean setPropertiesOnLink(HActionContext context) {
 		Relatedlink link = (Relatedlink) context.getTargetEntity();
-		List<PropertyMatch> propertyMatches = context.getSeedsite().getPattern().getPropertyMatches();
+		List<PropertyMatch> propertyMatches = context.getSeedsite().getUrlParserConfig().getPattern().getPropertyMatches();
 		List<Field> fileds = CommonUtil.getAllDeclareFields(link.getClass());
 		String htmlContent =link.getOriginalHtmlContent();
 		

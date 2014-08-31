@@ -325,7 +325,7 @@ public int compareTo(CustomerHtmlNode o) {
 }
 public static void main(String[] args){
 	try {
-		String html=CommonUtil.getHtmlContent("http://www.cqkxzx.net/a/201304/0403Z9592013.html", false);
+		String html=HtmlUtil.getHtmlContent("http://www.cqkxzx.net/a/201304/0403Z9592013.html", false);
 	   CustomerHtmlNode cu= CustomerHtmlNode.removeHtmlNoise(html);
 	   System.out.print(cu.getDepth()+":"+cu.getOrderNum()+"\n");
 	   System.out.print(cu.getHtmlContent()+"\n");

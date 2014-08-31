@@ -39,16 +39,22 @@
 	</profiles>
 	<dependencies>
 		
-
+<dependency>
+	<groupId>com.edanz</groupId>
+  <artifactId>datacenter</artifactId>
+  <version>0.0.1-SNAPSHOT</version>	
+</dependency>
+ <dependency>
+  <groupId>com.yufei</groupId>
+  <artifactId>utils</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+       </dependency>     
 		
-
-
-		
-		<dependency>
+<!--		<dependency>
 			<groupId>com.yufei</groupId>
 	<artifactId>luceneExt</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	</dependency>
+	</dependency>-->
 	
 		<dependency>
 	<groupId>jtidy</groupId>
@@ -61,11 +67,7 @@
 	<version>1.7.2</version>
 </dependency>
                     
-	 <dependency>
-  <groupId>com.yufei</groupId>
-  <artifactId>utils</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-       </dependency>     
+	
 
 	
             
@@ -86,15 +88,13 @@
 
 		
             
-		  <dependency>
-			<groupId>org.eclipse</groupId>
-			<artifactId>swt</artifactId>
-			<version>1.0</version>
+		  
+                  <dependency>
+	<groupId>org.eclipse</groupId>
+	<artifactId>swt</artifactId>
+	<version>3.3.0-v3346</version>
+</dependency>
 
-			<systemPath>${dependencies.dependency.swt.systemPath}</systemPath>
-			<scope>system</scope>
-
-		</dependency>  
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
 			<artifactId>httpclient</artifactId>
@@ -152,8 +152,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				
 				<configuration>
-					<source>1.6</source>
-					<target>1.6</target>
+					<source>1.7</source>
+					<target>1.7</target>
 					<encoding>UTF-8</encoding>
 				</configuration>
 			</plugin>
@@ -207,12 +207,10 @@
 	<properties>
 		
 
-		<project.lib>F:\work\runner\lib</project.lib>
-		<project.outputDirectory>F:\work\runner</project.outputDirectory>
+		<project.lib>./lib</project.lib>
+		<project.outputDirectory>./</project.outputDirectory>
 		<project.name>InfoExtractor-1.0.0</project.name>
-		<dependencies.dependency.cron4j.systemPath>F:\\work\\runner\\lib\\cron4j-2.2.5.jar</dependencies.dependency.cron4j.systemPath>
  		
-    <dependencies.dependency.swt.systemPath>F:\\work\\runner\\lib\\swt.jar</dependencies.dependency.swt.systemPath>
 
 
 

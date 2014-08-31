@@ -14,7 +14,7 @@ import com.yufei.infoExtractor.core.InfoActionConfig;
 import com.yufei.pfw.entity.Entity;
 
 
-public class Task extends Entity {
+public class Task extends Entity<Long> {
 	private Pattern pattern=null;
 	//一直没有启动过刚创建
 	public final static Integer UN_RUN=0; 

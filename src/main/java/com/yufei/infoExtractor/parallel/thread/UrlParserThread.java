@@ -11,6 +11,7 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
 import com.yufei.component.repetition.IsRepetive;
+import com.yufei.dataget.utils.HtmlUtil;
 import com.yufei.infoExtractor.context.HActionContext;
 import com.yufei.infoExtractor.entity.PropertyMatch;
 import com.yufei.infoExtractor.entity.Seedsite;
@@ -18,7 +19,6 @@ import com.yufei.infoExtractor.extractor.fetchdecision.DecisionMaker;
 import com.yufei.infoExtractor.util.FactoryUtil;
 import com.yufei.utils.CommonUtil;
 import com.yufei.utils.ExceptionUtil;
-import com.yufei.utils.HtmlUtil;
 import com.yufei.utils.PatternUtils;
 
 /**

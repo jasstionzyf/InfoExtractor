@@ -3,9 +3,9 @@ package com.yufei.infoExtractor.extractor.propertyExtractor;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import com.yufei.entity.Relatedlink;
 import com.yufei.infoExtractor.context.HActionContext;
 import com.yufei.infoExtractor.entity.PropertyMatch;
+import com.yufei.infoExtractor.entity.Relatedlink;
 import com.yufei.infoExtractor.extractor.ExtractorAction;
 import com.yufei.infoExtractor.extractor.PropertyExtractor;
 import com.yufei.utils.CommonUtil;

@@ -14,6 +14,9 @@ import com.yufei.infoExtractor.core.InfoExtractionAction;
 import com.yufei.infoExtractor.entity.Hotel;
 import com.yufei.infoExtractor.entity.Task;
 import com.yufei.infoExtractor.exception.TaskResultExportException;
+import com.yufei.infoExtractor.pfw.InfoExtractorDao;
+import com.yufei.infoExtractor.pfw.InfoExtractorDaoFactory;
+import com.yufei.infoExtractor.util.AppUtil;
 import com.yufei.pfw.entity.Entity;
 import com.yufei.utils.AnnotationUtil;
 import com.yufei.utils.CommonUtil;
@@ -38,8 +41,8 @@ public class DataExportToExcelAction implements InfoExtractionAction <HActionCon
 		List<? extends Entity> needSavedList = null;
 
 		needSavedList = infoExtractorDao
-				.getDataRepositoryI()
-				.getMongoOperations()
+				.getMongoTemplate()
+	
 				.find(query(where("findTime").gt(task.getStartedTime())
 						.and("taskId").is(task.getId())),
 						context.getTargetEntity().getClass());
@@ -55,9 +58,9 @@ List<String> headers=AnnotationUtil.getExcelHeaders(Hotel.class);
  
 		try {
 			
-			FileUtil.makeExcelFileForTaskResult(needSavedList,
-					destinationFoler, context.getTargetEntity().getClass(),
-					fieldOrders, headers);
+//			FileUtil.makeExcelFileForTaskResult(needSavedList,
+//					destinationFoler, context.getTargetEntity().getClass(),
+//					fieldOrders, headers);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			mLog.info("在将采集信息列表生成Excel文件时出错，错误信息是："

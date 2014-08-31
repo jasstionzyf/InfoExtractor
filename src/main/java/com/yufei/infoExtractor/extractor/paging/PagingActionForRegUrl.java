@@ -1,5 +1,8 @@
 package com.yufei.infoExtractor.extractor.paging;
 
+import com.yufei.dataget.entity.ProxyServer;
+import com.yufei.dataget.utils.HtmlUtil;
+import com.yufei.infoExtractor.context.BaseContext;
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.net.MalformedURLException;
@@ -9,10 +12,9 @@ import java.util.List;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import com.yufei.entity.ProxyServer;
-import com.yufei.entity.Relatedlink;
-import com.yufei.infoExtractor.context.BaseContext;
+
 import com.yufei.infoExtractor.context.HActionContext;
+import com.yufei.infoExtractor.entity.Relatedlink;
 import com.yufei.utils.CommonUtil;
 import com.yufei.utils.ExceptionUtil;
 import com.yufei.utils.PatternUtils;
@@ -30,7 +32,7 @@ Integer pageSize=null;
 Integer totalRecorderNumber=null;
 String fieldName=null;
 Relatedlink link=null;
-	public BaseContext getContext() {
+	public BaseContext  getContext() {
 	return context;
 }
 
@@ -132,7 +134,7 @@ public void setContext(HActionContext context) {
 				requestExecuteJs = true;
 			}
 			
-			currentPageContent = CommonUtil.getHtmlContent(protocolType, requestExecuteJs, pageUrl);
+			currentPageContent =HtmlUtil.getHtmlContent(protocolType, requestExecuteJs, pageUrl);
 			currentPageContent=CommonUtil.removeSpace(currentPageContent);
 			if (mLog.isDebugEnabled()) {
 				mLog.debug("请求" + pageUrl + "得到的网页内容是：" + currentPageContent);

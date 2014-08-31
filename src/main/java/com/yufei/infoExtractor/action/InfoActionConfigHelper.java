@@ -1,16 +1,16 @@
 package com.yufei.infoExtractor.action;
 
+import com.yufei.infoExtractor.context.BaseContext;
 import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import com.yufei.infoExtractor.context.BaseContext;
 import com.yufei.infoExtractor.core.InfoActionConfig;
 import com.yufei.infoExtractor.core.InfoExtractionAction;
+import com.yufei.infoExtractor.entity.Task;
 import com.yufei.infoExtractor.extractor.ContentExtractor;
-import com.yufei.infoExtractor.pfw.entity.Task;
 import com.yufei.infoExtractor.util.AppUtil;
 import com.yufei.utils.CommonUtil;
 import com.yufei.utils.ExceptionUtil;

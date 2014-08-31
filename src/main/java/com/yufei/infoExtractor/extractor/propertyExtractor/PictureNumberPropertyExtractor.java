@@ -1,20 +1,20 @@
 package com.yufei.infoExtractor.extractor.propertyExtractor;
 
+import com.yufei.dataget.utils.HtmlUtil;
 import java.io.File;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import com.yufei.entity.Relatedlink;
 import com.yufei.infoExtractor.context.HActionContext;
 import com.yufei.infoExtractor.entity.PropertyMatch;
+import com.yufei.infoExtractor.entity.Relatedlink;
 import com.yufei.infoExtractor.extractor.ExtractorAction;
 import com.yufei.infoExtractor.extractor.PictureNumExtractor;
 import com.yufei.infoExtractor.extractor.PropertyExtractor;
 import com.yufei.infoExtractor.util.AppUtil;
 import com.yufei.utils.CommonUtil;
 import com.yufei.utils.ExceptionUtil;
-import com.yufei.utils.HtmlUtil;
 import com.yufei.utils.PatternUtils;
 import com.yufei.utils.SequenceUUID;
 

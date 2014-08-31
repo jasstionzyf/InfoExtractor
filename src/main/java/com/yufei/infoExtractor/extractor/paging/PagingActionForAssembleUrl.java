@@ -1,17 +1,19 @@
 package com.yufei.infoExtractor.extractor.paging;
 
+import com.yufei.dataget.entity.PaginationRule;
+import com.yufei.dataget.entity.UrlParameter;
+import com.yufei.dataget.utils.HtmlUtil;
+import com.yufei.infoExtractor.context.BaseContext;
 import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import com.yufei.entity.PaginationRule;
-import com.yufei.entity.Relatedlink;
-import com.yufei.entity.UrlParameter;
-import com.yufei.infoExtractor.context.BaseContext;
+
 import com.yufei.infoExtractor.context.HActionContext;
 import com.yufei.infoExtractor.entity.PropertyMatch;
+import com.yufei.infoExtractor.entity.Relatedlink;
 import com.yufei.utils.CommonUtil;
 import com.yufei.utils.ExceptionUtil;
 import com.yufei.utils.PatternUtils;
@@ -70,12 +72,12 @@ public class PagingActionForAssembleUrl implements PagingAction {
 		UrlParameter urlParameter = new UrlParameter(1, "Integer", pageNumber,
 				begainPagNumber, pagNumberSpace);
 		paginationRule.getUrlParameters().add(urlParameter);
-		List<String> geratedUrls = CommonUtil
+		List<String> geratedUrls = HtmlUtil
 				.generateUrlsByPaginationRule(paginationRule);
 		List<String> tempComments = null;
 		String tempHtmlContent = null;
 		for (String url : geratedUrls) {
-			tempHtmlContent = CommonUtil.getHtmlContent(context.getSeedsite().getDataRetrieverFeatures().getProxy(), false, url);
+			tempHtmlContent = HtmlUtil.getHtmlContent(context.getSeedsite().getDataRetrieverFeatures().getProxy(), false, url);
 			tempComments = PatternUtils.getListStrByRegex(tempHtmlContent,
 					contentRegex);
 			for (String value : tempComments) {

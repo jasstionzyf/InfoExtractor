@@ -1,5 +1,8 @@
 
 package com.yufei.infoExtractor.core.impl;
+import com.yufei.dataget.entity.ProxyServer;
+import com.yufei.dataget.entity.UrlParameter;
+import com.yufei.dataget.utils.HtmlUtil;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -20,16 +23,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.stereotype.Service;
 
-import com.yufei.entity.Entity;
-import com.yufei.entity.ProxyServer;
-import com.yufei.entity.UrlParameter;
 import com.yufei.infoExtractor.core.InfoExtractorMI;
 import com.yufei.infoExtractor.core.TaskBuilder;
 import com.yufei.infoExtractor.core.TaskConfig;
+import com.yufei.infoExtractor.entity.News;
+import com.yufei.infoExtractor.entity.Task;
 import com.yufei.infoExtractor.pfw.InfoExtractorDao;
-import com.yufei.infoExtractor.pfw.entity.News;
-import com.yufei.infoExtractor.pfw.entity.Task;
 import com.yufei.infoExtractor.util.AppUtil;
+import com.yufei.pfw.entity.Entity;
 import com.yufei.utils.CommonUtil;
 import com.yufei.utils.PatternUtils;
 
@@ -71,12 +72,12 @@ public class InfoExtractorM implements InfoExtractorMI {
 			Unmarshaller unmarshaller=jaxbContext.createUnmarshaller();
 			taskConfig=(TaskConfig) unmarshaller.unmarshal(inputStream);
 			List<Task> tasks = taskConfig.getTasks();
-            List<String> taskNames= infoExtractorDao.getDataRepositoryI()  .queryAllValuesOfField("taskName", Task.class, new HashMap());
+            List<String> taskNames= infoExtractorDao  .queryAllValuesOfField("taskName", Task.class, new HashMap());
 			for(Task task:tasks){
 				if(taskNames.contains(task.getTaskName())){
 					//drop add
-					Task taskD=infoExtractorDao.getDataRepositoryI().queryEntity("taskName", task.getTaskName(), Task.class);
-					infoExtractorDao.getDataRepositoryI().removeEntity(taskD);
+					Task taskD=infoExtractorDao.queryEntity("taskName", task.getTaskName(), Task.class);
+					infoExtractorDao.removeEntity(taskD);
 					infoExtractorDao.addTask(task);
 				}
 				else{
@@ -101,7 +102,7 @@ public class InfoExtractorM implements InfoExtractorMI {
 	public long count(String collectionName) {
 		// TODO Auto-generated method stub
 		long count;
-		count=infoExtractorDao.getDataRepositoryI().getMongoOperations().count(new Query(), collectionName);
+		count=infoExtractorDao.getMongoTemplate().count(new Query(), collectionName);
 		return count;
 	}
 
@@ -113,7 +114,7 @@ public class InfoExtractorM implements InfoExtractorMI {
 	public List<String> getAllEntityFullClassName() {
 		// TODO Auto-generated method stub
 		List<String> classNames=new ArrayList();
-		Set<String> collectionNames=infoExtractorDao.getDataRepositoryI().getMongoOperations().getCollectionNames();
+		Set<String> collectionNames=infoExtractorDao.getMongoTemplate().getCollectionNames();
 		for(String collectionName:collectionNames){
 			classNames.add(entityPackageName+"."+CommonUtil.upFirstChar(collectionName));
 		}
@@ -134,7 +135,7 @@ public class InfoExtractorM implements InfoExtractorMI {
 			taskConfig.getTasks().addAll(infoExtractorDao.getTasks());
 		}
 		else{
-		Task task= infoExtractorDao.getDataRepositoryI().queryEntity("taskName", taskName, Task.class);
+		Task task= infoExtractorDao.queryEntity("taskName", taskName, Task.class);
 		taskConfig.getTasks().add(task);
 
 		}
@@ -150,7 +151,7 @@ public class InfoExtractorM implements InfoExtractorMI {
 	@Override
 	public String getHtmlContentByDataRetriver(String url, Boolean isRequireJS) throws IOException {
 		// TODO Auto-generated method stub
-		return CommonUtil.getHtmlContent(url, isRequireJS);
+		return HtmlUtil.getHtmlContent(url, isRequireJS);
 	}
 
 
@@ -172,7 +173,7 @@ public class InfoExtractorM implements InfoExtractorMI {
 		// TODO Auto-generated method stub
 		List<? extends Entity> resultList=null;
 		
-		resultList=(List<? extends Entity>) infoExtractorDao.getDataRepositoryI().getMongoOperations().findAll(Class.forName(collectionName));
+		resultList=(List<? extends Entity>) infoExtractorDao.getMongoTemplate().findAll(Class.forName(collectionName));
 	
 	return resultList;
 	}
@@ -218,7 +219,7 @@ public class InfoExtractorM implements InfoExtractorMI {
 		TaskConfig demoTasks=(TaskConfig) CommonUtil.getObjectFromXml(in, TaskConfig.class);
 		Task task = demoTasks.getTasks().get(0);
 
-		List<UrlParameter> urlParameters= task.getSeedsites().get(0).getPaginationRule().getUrlParameters();
+		List<UrlParameter> urlParameters= task.getSeedsites().get(0).getUrlExtractorConfig().getPaginationRule().getUrlParameters();
 		for(UrlParameter urlParameter:urlParameters){
 			if(urlParameter.getParameterIndex()==1){
 				urlParameter.setParameterValue(CommonUtil.LinkStringWithSpecialSymbol(keyWords, AppUtil.stringSplitSymbol));
@@ -242,7 +243,7 @@ public class InfoExtractorM implements InfoExtractorMI {
 			mLog.info(calssName+" not exsited!");
 			return;
 		}
-		List<? extends Entity> sources=infoExtractorDao.getDataRepositoryI().getMongoOperations().findAll(entity);
+		List<? extends Entity> sources=infoExtractorDao.getMongoTemplate().findAll(entity);
 		for(Entity entity1:sources){
 			if(((News)entity1).getContent().length()<400){
 				continue;
@@ -272,7 +273,7 @@ public class InfoExtractorM implements InfoExtractorMI {
 			mLog.error(e1.getMessage());
 		}
 	   TaskConfig demoTasks=(TaskConfig) CommonUtil.getObjectFromXml(in, TaskConfig.class);
-		List<UrlParameter> urlParameters= demoTasks.getTasks().get(0).getSeedsites().get(0).getPaginationRule().getUrlParameters();
+		List<UrlParameter> urlParameters= demoTasks.getTasks().get(0).getSeedsites().get(0).getUrlExtractorConfig().getPaginationRule().getUrlParameters();
 		for(UrlParameter urlParameter:urlParameters){
 			if(urlParameter.getParameterIndex()==1){
 				urlParameter.setParameterValue(keyWords);
@@ -298,7 +299,7 @@ public class InfoExtractorM implements InfoExtractorMI {
 	@Override
 	public void dropTable(String tableName) {
 		// TODO Auto-generated method stub
-	infoExtractorDao.getDataRepositoryI().getMongoOperations().dropCollection(tableName);
+	infoExtractorDao.getMongoTemplate().dropCollection(tableName);
 	}
 
 
@@ -316,7 +317,7 @@ public class InfoExtractorM implements InfoExtractorMI {
 	@Override
 	public void updateTaskStatus(Integer taskStatus,String taskid) {
 		// TODO Auto-generated method st
-		infoExtractorDao.updateTaskStatus(taskStatus, taskid);
+		infoExtractorDao.updateTaskStatus(taskStatus, Long.parseLong(taskid));
 		
 	}
 
@@ -326,7 +327,7 @@ public class InfoExtractorM implements InfoExtractorMI {
 			Object queryValue, Class cla) {
 		// TODO Auto-generated method stub
 		
-		return (Task)infoExtractorDao.getDataRepositoryI().queryEntity(queryParameter, queryValue, cla);
+		return (Task)infoExtractorDao.queryEntity(queryParameter, queryValue, cla);
 	}
 
 
@@ -347,7 +348,7 @@ public class InfoExtractorM implements InfoExtractorMI {
 		}
 		
 		TaskConfig demoTasks=(TaskConfig) CommonUtil.getObjectFromXml(in, TaskConfig.class);
-		List<UrlParameter> urlParameters=demoTasks.getTasks().get(0).getSeedsites() .get(0).getPaginationRule().getUrlParameters();
+		List<UrlParameter> urlParameters=demoTasks.getTasks().get(0).getSeedsites() .get(0).getUrlExtractorConfig().getPaginationRule().getUrlParameters();
 		for(UrlParameter urlParameter:urlParameters){
 			if(urlParameter.getParameterIndex()==2){
 				urlParameter.setParameterValue(pages);

@@ -7,9 +7,9 @@ import org.apache.commons.logging.LogFactory;
 
 import com.yufei.infoExtractor.context.HActionContext;
 import com.yufei.infoExtractor.core.InfoExtractionAction;
+import com.yufei.infoExtractor.entity.Task;
 import com.yufei.infoExtractor.pfw.InfoExtractorDao;
 import com.yufei.infoExtractor.pfw.InfoExtractorDaoFactory;
-import com.yufei.infoExtractor.pfw.entity.Task;
 import com.yufei.utils.DateUtil;
 
 /**

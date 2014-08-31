@@ -1,9 +1,7 @@
 package com.yufei.infoExtractor.io.impl;
 
-import static org.junit.Assert.*;
 
 import java.io.IOException;
-import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.charset.Charset;
@@ -13,10 +11,10 @@ import org.junit.Before;
 import org.junit.Test;
 
 import com.ibm.icu.text.CharsetDetector;
-import com.ibm.icu.text.CharsetMatch;
-import com.yufei.infoExtractor.io.HttpDataRetriever;
-import com.yufei.infoExtractor.util.CommonUtil;
-import com.yufei.infoExtractor.util.IOUtils;
+import com.yufei.dataget.dataretriver.CommonDataRetriever;
+import com.yufei.dataget.dataretriver.HttpDataRetriever;
+import com.yufei.utils.IOUtils;
+
 
 public class CommonDataRetrieverTest {
 

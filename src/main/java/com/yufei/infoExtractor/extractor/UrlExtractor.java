@@ -3,14 +3,8 @@
  */
 package com.yufei.infoExtractor.extractor;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
-import java.util.Set;
-
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
-
+import com.yufei.dataget.entity.PaginationRule;
+import com.yufei.dataget.utils.HtmlUtil;
 import com.yufei.infoExtractor.context.HActionContext;
 import com.yufei.infoExtractor.core.InfoExtractionAction;
 import com.yufei.infoExtractor.entity.Seedsite;
@@ -20,7 +14,14 @@ import com.yufei.infoExtractor.listener.InfoExtractorEvent;
 import com.yufei.infoExtractor.listener.InfoExtractorListener;
 import com.yufei.infoExtractor.parallel.ParallelThreadExecutor;
 import com.yufei.infoExtractor.parallel.executor.UrlExtractorParallelThreadExecutor;
+import com.yufei.infoExtractor.util.AppUtil;
 import com.yufei.utils.CommonUtil;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+import java.util.Set;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 
 
 /**
@@ -108,7 +109,7 @@ public class UrlExtractor  extends Extractor implements ExtractorAction,InfoExtr
 		PaginationRule paginationRule=seedsite.getUrlExtractorConfig().getPaginationRule();
 		if(!(paginationRule==null||paginationRule.getPaginationTemplate()==null||paginationRule.getUrlParameters().size()==0)){
 			List<String> urls=null;
-            urls=CommonUtil.generateUrlsByPaginationRule(paginationRule);
+            urls=HtmlUtil.generateUrlsByPaginationRule(paginationRule);
             mLog.info("根据分页模板进行目标链接抽取结束，共抽取到'"+urls.size()+"'条链接");
 			for(String url:urls){
 				//对于分页链接就是一样的链接名称可能还是会有更行因此无需去重
@@ -202,7 +203,7 @@ private void extractAllUrl(HActionContext context){
 	
 	
 }
-public 
+ 
 public ItemUrlsSave getItemUrlsSave() {
 	return itemUrlsSave;
 }

@@ -9,12 +9,11 @@ import java.util.List;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import com.yufei.entity.Entity;
 import com.yufei.infoExtractor.context.HActionContext;
 import com.yufei.infoExtractor.core.InfoExtractionAction;
+import com.yufei.infoExtractor.entity.Task;
 import com.yufei.infoExtractor.pfw.InfoExtractorDao;
 import com.yufei.infoExtractor.pfw.InfoExtractorDaoFactory;
-import com.yufei.infoExtractor.pfw.entity.Task;
 import com.yufei.utils.CommonUtil;
 import com.yufei.utils.DateUtil;
 import com.yufei.utils.FileUtil;
@@ -38,14 +37,14 @@ public class DataExportToXmlAction implements InfoExtractionAction <HActionConte
 		InfoExtractorDao infoExtractorDao=InfoExtractorDaoFactory.getInfoExtractorDao();
 		String destinationFoler=task.getTaskName()+DateUtil.getDateString(task.getStartedTime(), DateUtil.DAY)+File.separator;
 		List needSavedList=null;
-		needSavedList= infoExtractorDao.getDataRepositoryI().getMongoOperations().find(query(where("findTime").gt(task.getStartedTime()).
+		needSavedList= infoExtractorDao.getMongoTemplate().find(query(where("findTime").gt(task.getStartedTime()).
 		          and("taskId").is(task.getId())), context.getTargetEntity().getClass());	
 		if(CommonUtil.isEmptyOrNull(needSavedList)){
 			mLog.info("taskId:'"+task.getId()+"';url不为空的查询结果为空！");
 			return;
 		}
 		
-     FileUtil.makeExcelFileForTaskResult(needSavedList, destinationFoler, context.getTargetEntity().getClass(), null, null);		
+//     FileUtil.makeExcelFileForTaskResult(needSavedList, destinationFoler, context.getTargetEntity().getClass(), null, null);		
 
 	}
 
